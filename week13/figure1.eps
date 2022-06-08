@@ -1,0 +1,5810 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/gnu/figure/figure1.eps
+%%Creator: gnuplot 5.4 patchlevel 3
+%%CreationDate: Thu Apr 21 02:30:57 2022
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 410 302
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 410 50 lineto 410 302 lineto 50 302 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.2 (Dec 2017)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/gnu/figure/figure1.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.4 patchlevel 3)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Apr 21 02:30:57 2022)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PL PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(color) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 448 M
+[ [(color) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1004 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1004 M
+[ [(color) 140.0 0.0 true true 0 (-3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1561 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1561 M
+[ [(color) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2117 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2117 M
+[ [(color) 140.0 0.0 true true 0 (-1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2674 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2674 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3230 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3230 M
+[ [(color) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3786 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3786 M
+[ [(color) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4343 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4343 M
+[ [(color) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4899 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4899 M
+[ [(color) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+518 308 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2125 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2125 308 M
+[ [(color) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3733 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3733 308 M
+[ [(color) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5340 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5340 308 M
+[ [(color) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6947 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6947 308 M
+[ [(color) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(color) 140.0 0.0 true true 0 (Theta)]
+] -46.7 MCshow
+grestore
+/color findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3732 98 M
+[ [(color) 140.0 0.0 true true 0 (t)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4766 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData0.txt" using 2:1) Rshow
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+534 2691 BoxF
+550 2691 BoxF
+566 2691 BoxF
+582 2691 BoxF
+598 2690 BoxF
+614 2690 BoxF
+631 2690 BoxF
+647 2690 BoxF
+663 2689 BoxF
+679 2689 BoxF
+695 2688 BoxF
+711 2688 BoxF
+727 2687 BoxF
+743 2687 BoxF
+759 2686 BoxF
+775 2686 BoxF
+791 2685 BoxF
+807 2684 BoxF
+823 2684 BoxF
+839 2683 BoxF
+856 2682 BoxF
+872 2681 BoxF
+888 2681 BoxF
+904 2680 BoxF
+920 2679 BoxF
+936 2678 BoxF
+952 2677 BoxF
+968 2676 BoxF
+984 2676 BoxF
+1000 2675 BoxF
+1016 2674 BoxF
+1032 2673 BoxF
+1048 2672 BoxF
+1064 2671 BoxF
+1081 2670 BoxF
+1097 2670 BoxF
+1113 2669 BoxF
+1129 2668 BoxF
+1145 2667 BoxF
+1161 2666 BoxF
+1177 2665 BoxF
+1193 2665 BoxF
+1209 2664 BoxF
+1225 2663 BoxF
+1241 2663 BoxF
+1257 2662 BoxF
+1273 2661 BoxF
+1289 2661 BoxF
+1306 2660 BoxF
+1322 2659 BoxF
+1338 2659 BoxF
+1354 2659 BoxF
+1370 2658 BoxF
+1386 2658 BoxF
+1402 2657 BoxF
+1418 2657 BoxF
+1434 2657 BoxF
+1450 2657 BoxF
+1466 2656 BoxF
+1482 2656 BoxF
+1498 2656 BoxF
+1514 2656 BoxF
+1531 2656 BoxF
+1547 2656 BoxF
+1563 2656 BoxF
+1579 2656 BoxF
+1595 2656 BoxF
+1611 2657 BoxF
+1627 2657 BoxF
+1643 2657 BoxF
+1659 2657 BoxF
+1675 2658 BoxF
+1691 2658 BoxF
+1707 2659 BoxF
+1723 2659 BoxF
+1740 2660 BoxF
+1756 2660 BoxF
+1772 2661 BoxF
+1788 2661 BoxF
+1804 2662 BoxF
+1820 2663 BoxF
+1836 2663 BoxF
+1852 2664 BoxF
+1868 2665 BoxF
+1884 2666 BoxF
+1900 2667 BoxF
+1916 2667 BoxF
+1932 2668 BoxF
+1948 2669 BoxF
+1965 2670 BoxF
+1981 2671 BoxF
+1997 2672 BoxF
+2013 2672 BoxF
+2029 2673 BoxF
+2045 2674 BoxF
+2061 2675 BoxF
+2077 2676 BoxF
+2093 2677 BoxF
+2109 2678 BoxF
+2125 2678 BoxF
+2141 2679 BoxF
+2157 2680 BoxF
+2173 2681 BoxF
+2190 2682 BoxF
+2206 2682 BoxF
+2222 2683 BoxF
+2238 2684 BoxF
+2254 2685 BoxF
+2270 2685 BoxF
+2286 2686 BoxF
+2302 2687 BoxF
+2318 2687 BoxF
+2334 2688 BoxF
+2350 2688 BoxF
+2366 2689 BoxF
+2382 2689 BoxF
+2398 2689 BoxF
+2415 2690 BoxF
+2431 2690 BoxF
+2447 2690 BoxF
+2463 2691 BoxF
+2479 2691 BoxF
+2495 2691 BoxF
+2511 2691 BoxF
+2527 2691 BoxF
+2543 2691 BoxF
+2559 2691 BoxF
+2575 2691 BoxF
+2591 2691 BoxF
+2607 2691 BoxF
+2623 2690 BoxF
+2640 2690 BoxF
+2656 2690 BoxF
+2672 2689 BoxF
+2688 2689 BoxF
+2704 2689 BoxF
+2720 2688 BoxF
+2736 2688 BoxF
+2752 2687 BoxF
+2768 2687 BoxF
+2784 2686 BoxF
+2800 2685 BoxF
+2816 2685 BoxF
+2832 2684 BoxF
+2849 2683 BoxF
+2865 2683 BoxF
+2881 2682 BoxF
+2897 2681 BoxF
+2913 2680 BoxF
+2929 2680 BoxF
+2945 2679 BoxF
+2961 2678 BoxF
+2977 2677 BoxF
+2993 2676 BoxF
+3009 2675 BoxF
+3025 2674 BoxF
+3041 2674 BoxF
+3057 2673 BoxF
+3074 2672 BoxF
+3090 2671 BoxF
+3106 2670 BoxF
+3122 2669 BoxF
+3138 2668 BoxF
+3154 2668 BoxF
+3170 2667 BoxF
+3186 2666 BoxF
+3202 2665 BoxF
+3218 2664 BoxF
+3234 2664 BoxF
+3250 2663 BoxF
+3266 2662 BoxF
+3282 2662 BoxF
+3299 2661 BoxF
+3315 2660 BoxF
+3331 2660 BoxF
+3347 2659 BoxF
+3363 2659 BoxF
+3379 2658 BoxF
+3395 2658 BoxF
+3411 2658 BoxF
+3427 2657 BoxF
+3443 2657 BoxF
+3459 2657 BoxF
+3475 2656 BoxF
+3491 2656 BoxF
+3507 2656 BoxF
+3524 2656 BoxF
+3540 2656 BoxF
+3556 2656 BoxF
+3572 2656 BoxF
+3588 2656 BoxF
+3604 2656 BoxF
+3620 2656 BoxF
+3636 2657 BoxF
+3652 2657 BoxF
+3668 2657 BoxF
+3684 2658 BoxF
+3700 2658 BoxF
+3716 2658 BoxF
+3733 2659 BoxF
+3749 2659 BoxF
+3765 2660 BoxF
+3781 2660 BoxF
+3797 2661 BoxF
+3813 2662 BoxF
+3829 2662 BoxF
+3845 2663 BoxF
+3861 2664 BoxF
+3877 2664 BoxF
+3893 2665 BoxF
+3909 2666 BoxF
+3925 2667 BoxF
+3941 2668 BoxF
+3958 2668 BoxF
+3974 2669 BoxF
+3990 2670 BoxF
+4006 2671 BoxF
+4022 2672 BoxF
+4038 2673 BoxF
+4054 2674 BoxF
+4070 2675 BoxF
+4086 2675 BoxF
+4102 2676 BoxF
+4118 2677 BoxF
+4134 2678 BoxF
+4150 2679 BoxF
+4166 2680 BoxF
+4183 2680 BoxF
+4199 2681 BoxF
+4215 2682 BoxF
+4231 2683 BoxF
+4247 2684 BoxF
+4263 2684 BoxF
+4279 2685 BoxF
+4295 2686 BoxF
+4311 2686 BoxF
+4327 2687 BoxF
+4343 2687 BoxF
+4359 2688 BoxF
+4375 2688 BoxF
+4391 2689 BoxF
+4408 2689 BoxF
+4424 2690 BoxF
+4440 2690 BoxF
+4456 2690 BoxF
+4472 2690 BoxF
+4488 2691 BoxF
+4504 2691 BoxF
+4520 2691 BoxF
+4536 2691 BoxF
+4552 2691 BoxF
+4568 2691 BoxF
+4584 2691 BoxF
+4600 2691 BoxF
+4616 2691 BoxF
+4633 2690 BoxF
+4649 2690 BoxF
+4665 2690 BoxF
+4681 2690 BoxF
+4697 2689 BoxF
+4713 2689 BoxF
+4729 2689 BoxF
+4745 2688 BoxF
+4761 2688 BoxF
+4777 2687 BoxF
+4793 2686 BoxF
+4809 2686 BoxF
+4825 2685 BoxF
+4842 2685 BoxF
+4858 2684 BoxF
+4874 2683 BoxF
+4890 2682 BoxF
+4906 2682 BoxF
+4922 2681 BoxF
+4938 2680 BoxF
+4954 2679 BoxF
+4970 2678 BoxF
+4986 2678 BoxF
+5002 2677 BoxF
+5018 2676 BoxF
+5034 2675 BoxF
+5050 2674 BoxF
+5067 2673 BoxF
+5083 2672 BoxF
+5099 2671 BoxF
+5115 2671 BoxF
+5131 2670 BoxF
+5147 2669 BoxF
+5163 2668 BoxF
+5179 2667 BoxF
+5195 2666 BoxF
+5211 2666 BoxF
+5227 2665 BoxF
+5243 2664 BoxF
+5259 2663 BoxF
+5275 2663 BoxF
+5292 2662 BoxF
+5308 2661 BoxF
+5324 2661 BoxF
+5340 2660 BoxF
+5356 2660 BoxF
+5372 2659 BoxF
+5388 2659 BoxF
+5404 2658 BoxF
+5420 2658 BoxF
+5436 2657 BoxF
+5452 2657 BoxF
+5468 2657 BoxF
+5484 2657 BoxF
+5500 2656 BoxF
+5517 2656 BoxF
+5533 2656 BoxF
+5549 2656 BoxF
+5565 2656 BoxF
+5581 2656 BoxF
+5597 2656 BoxF
+5613 2656 BoxF
+5629 2656 BoxF
+5645 2657 BoxF
+5661 2657 BoxF
+5677 2657 BoxF
+5693 2657 BoxF
+5709 2658 BoxF
+5725 2658 BoxF
+5742 2659 BoxF
+5758 2659 BoxF
+5774 2660 BoxF
+5790 2660 BoxF
+5806 2661 BoxF
+5822 2661 BoxF
+5838 2662 BoxF
+5854 2663 BoxF
+5870 2663 BoxF
+5886 2664 BoxF
+5902 2665 BoxF
+5918 2666 BoxF
+5934 2666 BoxF
+5951 2667 BoxF
+5967 2668 BoxF
+5983 2669 BoxF
+5999 2670 BoxF
+6015 2671 BoxF
+6031 2671 BoxF
+6047 2672 BoxF
+6063 2673 BoxF
+6079 2674 BoxF
+6095 2675 BoxF
+6111 2676 BoxF
+6127 2677 BoxF
+6143 2677 BoxF
+6159 2678 BoxF
+6176 2679 BoxF
+6192 2680 BoxF
+6208 2681 BoxF
+6224 2682 BoxF
+6240 2682 BoxF
+6256 2683 BoxF
+6272 2684 BoxF
+6288 2684 BoxF
+6304 2685 BoxF
+6320 2686 BoxF
+6336 2686 BoxF
+6352 2687 BoxF
+6368 2688 BoxF
+6384 2688 BoxF
+6401 2688 BoxF
+6417 2689 BoxF
+6433 2689 BoxF
+6449 2690 BoxF
+6465 2690 BoxF
+6481 2690 BoxF
+6497 2690 BoxF
+6513 2691 BoxF
+6529 2691 BoxF
+6545 2691 BoxF
+6561 2691 BoxF
+6577 2691 BoxF
+6593 2691 BoxF
+6609 2691 BoxF
+6626 2691 BoxF
+6642 2691 BoxF
+6658 2690 BoxF
+6674 2690 BoxF
+6690 2690 BoxF
+6706 2690 BoxF
+6722 2689 BoxF
+6738 2689 BoxF
+6754 2688 BoxF
+6770 2688 BoxF
+6786 2687 BoxF
+6802 2687 BoxF
+6818 2686 BoxF
+6834 2686 BoxF
+6851 2685 BoxF
+6867 2684 BoxF
+6883 2684 BoxF
+6899 2683 BoxF
+6915 2682 BoxF
+6931 2681 BoxF
+6947 2681 BoxF
+6579 4766 BoxF
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4626 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData0.txt" using 4:3) Rshow
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+534 2691 Box
+550 2691 Box
+566 2691 Box
+582 2691 Box
+598 2690 Box
+614 2690 Box
+631 2690 Box
+647 2690 Box
+663 2689 Box
+679 2689 Box
+695 2688 Box
+711 2688 Box
+727 2687 Box
+743 2687 Box
+759 2686 Box
+775 2686 Box
+791 2685 Box
+807 2684 Box
+823 2684 Box
+839 2683 Box
+856 2682 Box
+872 2681 Box
+888 2681 Box
+904 2680 Box
+920 2679 Box
+936 2678 Box
+952 2677 Box
+968 2676 Box
+984 2676 Box
+1000 2675 Box
+1016 2674 Box
+1032 2673 Box
+1048 2672 Box
+1064 2671 Box
+1081 2670 Box
+1097 2670 Box
+1113 2669 Box
+1129 2668 Box
+1145 2667 Box
+1161 2666 Box
+1177 2665 Box
+1193 2665 Box
+1209 2664 Box
+1225 2663 Box
+1241 2663 Box
+1257 2662 Box
+1273 2661 Box
+1289 2661 Box
+1306 2660 Box
+1322 2659 Box
+1338 2659 Box
+1354 2659 Box
+1370 2658 Box
+1386 2658 Box
+1402 2657 Box
+1418 2657 Box
+1434 2657 Box
+1450 2657 Box
+1466 2656 Box
+1482 2656 Box
+1498 2656 Box
+1514 2656 Box
+1531 2656 Box
+1547 2656 Box
+1563 2656 Box
+1579 2656 Box
+1595 2656 Box
+1611 2657 Box
+1627 2657 Box
+1643 2657 Box
+1659 2657 Box
+1675 2658 Box
+1691 2658 Box
+1707 2659 Box
+1723 2659 Box
+1740 2660 Box
+1756 2660 Box
+1772 2661 Box
+1788 2661 Box
+1804 2662 Box
+1820 2663 Box
+1836 2663 Box
+1852 2664 Box
+1868 2665 Box
+1884 2666 Box
+1900 2666 Box
+1916 2667 Box
+1932 2668 Box
+1948 2669 Box
+1965 2670 Box
+1981 2671 Box
+1997 2672 Box
+2013 2672 Box
+2029 2673 Box
+2045 2674 Box
+2061 2675 Box
+2077 2676 Box
+2093 2677 Box
+2109 2678 Box
+2125 2678 Box
+2141 2679 Box
+2157 2680 Box
+2173 2681 Box
+2190 2682 Box
+2206 2682 Box
+2222 2683 Box
+2238 2684 Box
+2254 2685 Box
+2270 2685 Box
+2286 2686 Box
+2302 2686 Box
+2318 2687 Box
+2334 2688 Box
+2350 2688 Box
+2366 2689 Box
+2382 2689 Box
+2398 2689 Box
+2415 2690 Box
+2431 2690 Box
+2447 2690 Box
+2463 2691 Box
+2479 2691 Box
+2495 2691 Box
+2511 2691 Box
+2527 2691 Box
+2543 2691 Box
+2559 2691 Box
+2575 2691 Box
+2591 2691 Box
+2607 2691 Box
+2623 2690 Box
+2640 2690 Box
+2656 2690 Box
+2672 2689 Box
+2688 2689 Box
+2704 2689 Box
+2720 2688 Box
+2736 2688 Box
+2752 2687 Box
+2768 2687 Box
+2784 2686 Box
+2800 2685 Box
+2816 2685 Box
+2832 2684 Box
+2849 2683 Box
+2865 2683 Box
+2881 2682 Box
+2897 2681 Box
+2913 2680 Box
+2929 2680 Box
+2945 2679 Box
+2961 2678 Box
+2977 2677 Box
+2993 2676 Box
+3009 2675 Box
+3025 2674 Box
+3041 2674 Box
+3057 2673 Box
+3074 2672 Box
+3090 2671 Box
+3106 2670 Box
+3122 2669 Box
+3138 2668 Box
+3154 2668 Box
+3170 2667 Box
+3186 2666 Box
+3202 2665 Box
+3218 2664 Box
+3234 2664 Box
+3250 2663 Box
+3266 2662 Box
+3282 2662 Box
+3299 2661 Box
+3315 2660 Box
+3331 2660 Box
+3347 2659 Box
+3363 2659 Box
+3379 2658 Box
+3395 2658 Box
+3411 2658 Box
+3427 2657 Box
+3443 2657 Box
+3459 2657 Box
+3475 2656 Box
+3491 2656 Box
+3507 2656 Box
+3524 2656 Box
+3540 2656 Box
+3556 2656 Box
+3572 2656 Box
+3588 2656 Box
+3604 2656 Box
+3620 2656 Box
+3636 2657 Box
+3652 2657 Box
+3668 2657 Box
+3684 2658 Box
+3700 2658 Box
+3716 2658 Box
+3733 2659 Box
+3749 2659 Box
+3765 2660 Box
+3781 2660 Box
+3797 2661 Box
+3813 2662 Box
+3829 2662 Box
+3845 2663 Box
+3861 2664 Box
+3877 2664 Box
+3893 2665 Box
+3909 2666 Box
+3925 2667 Box
+3941 2668 Box
+3958 2668 Box
+3974 2669 Box
+3990 2670 Box
+4006 2671 Box
+4022 2672 Box
+4038 2673 Box
+4054 2674 Box
+4070 2674 Box
+4086 2675 Box
+4102 2676 Box
+4118 2677 Box
+4134 2678 Box
+4150 2679 Box
+4166 2680 Box
+4183 2680 Box
+4199 2681 Box
+4215 2682 Box
+4231 2683 Box
+4247 2683 Box
+4263 2684 Box
+4279 2685 Box
+4295 2685 Box
+4311 2686 Box
+4327 2687 Box
+4343 2687 Box
+4359 2688 Box
+4375 2688 Box
+4391 2689 Box
+4408 2689 Box
+4424 2689 Box
+4440 2690 Box
+4456 2690 Box
+4472 2690 Box
+4488 2691 Box
+4504 2691 Box
+4520 2691 Box
+4536 2691 Box
+4552 2691 Box
+4568 2691 Box
+4584 2691 Box
+4600 2691 Box
+4616 2691 Box
+4633 2691 Box
+4649 2690 Box
+4665 2690 Box
+4681 2690 Box
+4697 2689 Box
+4713 2689 Box
+4729 2689 Box
+4745 2688 Box
+4761 2688 Box
+4777 2687 Box
+4793 2686 Box
+4809 2686 Box
+4825 2685 Box
+4842 2685 Box
+4858 2684 Box
+4874 2683 Box
+4890 2682 Box
+4906 2682 Box
+4922 2681 Box
+4938 2680 Box
+4954 2679 Box
+4970 2678 Box
+4986 2678 Box
+5002 2677 Box
+5018 2676 Box
+5034 2675 Box
+5050 2674 Box
+5067 2673 Box
+5083 2672 Box
+5099 2672 Box
+5115 2671 Box
+5131 2670 Box
+5147 2669 Box
+5163 2668 Box
+5179 2667 Box
+5195 2667 Box
+5211 2666 Box
+5227 2665 Box
+5243 2664 Box
+5259 2663 Box
+5275 2663 Box
+5292 2662 Box
+5308 2661 Box
+5324 2661 Box
+5340 2660 Box
+5356 2660 Box
+5372 2659 Box
+5388 2659 Box
+5404 2658 Box
+5420 2658 Box
+5436 2657 Box
+5452 2657 Box
+5468 2657 Box
+5484 2657 Box
+5500 2656 Box
+5517 2656 Box
+5533 2656 Box
+5549 2656 Box
+5565 2656 Box
+5581 2656 Box
+5597 2656 Box
+5613 2656 Box
+5629 2656 Box
+5645 2657 Box
+5661 2657 Box
+5677 2657 Box
+5693 2657 Box
+5709 2658 Box
+5725 2658 Box
+5742 2659 Box
+5758 2659 Box
+5774 2659 Box
+5790 2660 Box
+5806 2661 Box
+5822 2661 Box
+5838 2662 Box
+5854 2663 Box
+5870 2663 Box
+5886 2664 Box
+5902 2665 Box
+5918 2665 Box
+5934 2666 Box
+5951 2667 Box
+5967 2668 Box
+5983 2669 Box
+5999 2670 Box
+6015 2670 Box
+6031 2671 Box
+6047 2672 Box
+6063 2673 Box
+6079 2674 Box
+6095 2675 Box
+6111 2676 Box
+6127 2676 Box
+6143 2677 Box
+6159 2678 Box
+6176 2679 Box
+6192 2680 Box
+6208 2681 Box
+6224 2681 Box
+6240 2682 Box
+6256 2683 Box
+6272 2684 Box
+6288 2684 Box
+6304 2685 Box
+6320 2686 Box
+6336 2686 Box
+6352 2687 Box
+6368 2687 Box
+6384 2688 Box
+6401 2688 Box
+6417 2689 Box
+6433 2689 Box
+6449 2690 Box
+6465 2690 Box
+6481 2690 Box
+6497 2690 Box
+6513 2691 Box
+6529 2691 Box
+6545 2691 Box
+6561 2691 Box
+6577 2691 Box
+6593 2691 Box
+6609 2691 Box
+6626 2691 Box
+6642 2691 Box
+6658 2690 Box
+6674 2690 Box
+6690 2690 Box
+6706 2690 Box
+6722 2689 Box
+6738 2689 Box
+6754 2688 Box
+6770 2688 Box
+6786 2687 Box
+6802 2687 Box
+6818 2686 Box
+6834 2686 Box
+6851 2685 Box
+6867 2684 Box
+6883 2684 Box
+6899 2683 Box
+6915 2682 Box
+6931 2681 Box
+6947 2681 Box
+6579 4626 Box
+% End plot #2
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Page: 2 2
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(color) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 448 M
+[ [(color) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1004 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1004 M
+[ [(color) 140.0 0.0 true true 0 (-3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1561 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1561 M
+[ [(color) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2117 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2117 M
+[ [(color) 140.0 0.0 true true 0 (-1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2674 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2674 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3230 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3230 M
+[ [(color) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3786 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3786 M
+[ [(color) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4343 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4343 M
+[ [(color) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4899 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4899 M
+[ [(color) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+518 308 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2125 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2125 308 M
+[ [(color) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3733 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3733 308 M
+[ [(color) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5340 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5340 308 M
+[ [(color) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6947 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6947 308 M
+[ [(color) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(color) 140.0 0.0 true true 0 (Theta)]
+] -46.7 MCshow
+grestore
+/color findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3732 98 M
+[ [(color) 140.0 0.0 true true 0 (t)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4766 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData1.txt" using 2:1) Rshow
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+534 3023 BoxF
+550 3021 BoxF
+566 3019 BoxF
+582 3016 BoxF
+598 3012 BoxF
+614 3007 BoxF
+631 3002 BoxF
+647 2995 BoxF
+663 2988 BoxF
+679 2980 BoxF
+695 2971 BoxF
+711 2962 BoxF
+727 2952 BoxF
+743 2941 BoxF
+759 2929 BoxF
+775 2917 BoxF
+791 2904 BoxF
+807 2891 BoxF
+823 2877 BoxF
+839 2862 BoxF
+856 2847 BoxF
+872 2832 BoxF
+888 2816 BoxF
+904 2800 BoxF
+920 2784 BoxF
+936 2767 BoxF
+952 2750 BoxF
+968 2733 BoxF
+984 2715 BoxF
+1000 2698 BoxF
+1016 2681 BoxF
+1032 2663 BoxF
+1048 2646 BoxF
+1064 2628 BoxF
+1081 2611 BoxF
+1097 2594 BoxF
+1113 2577 BoxF
+1129 2560 BoxF
+1145 2544 BoxF
+1161 2528 BoxF
+1177 2512 BoxF
+1193 2497 BoxF
+1209 2482 BoxF
+1225 2468 BoxF
+1241 2454 BoxF
+1257 2440 BoxF
+1273 2428 BoxF
+1289 2415 BoxF
+1306 2404 BoxF
+1322 2393 BoxF
+1338 2383 BoxF
+1354 2374 BoxF
+1370 2365 BoxF
+1386 2357 BoxF
+1402 2350 BoxF
+1418 2344 BoxF
+1434 2339 BoxF
+1450 2334 BoxF
+1466 2330 BoxF
+1482 2327 BoxF
+1498 2325 BoxF
+1514 2324 BoxF
+1531 2324 BoxF
+1547 2325 BoxF
+1563 2326 BoxF
+1579 2328 BoxF
+1595 2332 BoxF
+1611 2336 BoxF
+1627 2341 BoxF
+1643 2346 BoxF
+1659 2353 BoxF
+1675 2360 BoxF
+1691 2368 BoxF
+1707 2377 BoxF
+1723 2387 BoxF
+1740 2397 BoxF
+1756 2408 BoxF
+1772 2420 BoxF
+1788 2432 BoxF
+1804 2445 BoxF
+1820 2459 BoxF
+1836 2473 BoxF
+1852 2488 BoxF
+1868 2503 BoxF
+1884 2518 BoxF
+1900 2534 BoxF
+1916 2550 BoxF
+1932 2567 BoxF
+1948 2583 BoxF
+1965 2600 BoxF
+1981 2618 BoxF
+1997 2635 BoxF
+2013 2652 BoxF
+2029 2670 BoxF
+2045 2687 BoxF
+2061 2705 BoxF
+2077 2722 BoxF
+2093 2739 BoxF
+2109 2756 BoxF
+2125 2773 BoxF
+2141 2790 BoxF
+2157 2806 BoxF
+2173 2822 BoxF
+2190 2838 BoxF
+2206 2853 BoxF
+2222 2868 BoxF
+2238 2882 BoxF
+2254 2896 BoxF
+2270 2909 BoxF
+2286 2922 BoxF
+2302 2934 BoxF
+2318 2945 BoxF
+2334 2956 BoxF
+2350 2966 BoxF
+2366 2975 BoxF
+2382 2983 BoxF
+2398 2991 BoxF
+2415 2998 BoxF
+2431 3004 BoxF
+2447 3009 BoxF
+2463 3014 BoxF
+2479 3017 BoxF
+2495 3020 BoxF
+2511 3022 BoxF
+2527 3023 BoxF
+2543 3023 BoxF
+2559 3022 BoxF
+2575 3021 BoxF
+2591 3018 BoxF
+2607 3015 BoxF
+2623 3010 BoxF
+2640 3005 BoxF
+2656 3000 BoxF
+2672 2993 BoxF
+2688 2985 BoxF
+2704 2977 BoxF
+2720 2968 BoxF
+2736 2958 BoxF
+2752 2948 BoxF
+2768 2936 BoxF
+2784 2925 BoxF
+2800 2912 BoxF
+2816 2899 BoxF
+2832 2885 BoxF
+2849 2871 BoxF
+2865 2857 BoxF
+2881 2841 BoxF
+2897 2826 BoxF
+2913 2810 BoxF
+2929 2794 BoxF
+2945 2777 BoxF
+2961 2760 BoxF
+2977 2743 BoxF
+2993 2726 BoxF
+3009 2709 BoxF
+3025 2691 BoxF
+3041 2674 BoxF
+3057 2656 BoxF
+3074 2639 BoxF
+3090 2621 BoxF
+3106 2604 BoxF
+3122 2587 BoxF
+3138 2570 BoxF
+3154 2554 BoxF
+3170 2538 BoxF
+3186 2522 BoxF
+3202 2506 BoxF
+3218 2491 BoxF
+3234 2476 BoxF
+3250 2462 BoxF
+3266 2448 BoxF
+3282 2435 BoxF
+3299 2423 BoxF
+3315 2411 BoxF
+3331 2400 BoxF
+3347 2389 BoxF
+3363 2379 BoxF
+3379 2370 BoxF
+3395 2362 BoxF
+3411 2354 BoxF
+3427 2348 BoxF
+3443 2342 BoxF
+3459 2337 BoxF
+3475 2332 BoxF
+3491 2329 BoxF
+3507 2326 BoxF
+3524 2325 BoxF
+3540 2324 BoxF
+3556 2324 BoxF
+3572 2325 BoxF
+3588 2327 BoxF
+3604 2329 BoxF
+3620 2333 BoxF
+3636 2337 BoxF
+3652 2343 BoxF
+3668 2349 BoxF
+3684 2356 BoxF
+3700 2363 BoxF
+3716 2372 BoxF
+3733 2381 BoxF
+3749 2391 BoxF
+3765 2402 BoxF
+3781 2413 BoxF
+3797 2425 BoxF
+3813 2437 BoxF
+3829 2451 BoxF
+3845 2464 BoxF
+3861 2479 BoxF
+3877 2493 BoxF
+3893 2509 BoxF
+3909 2524 BoxF
+3925 2540 BoxF
+3941 2557 BoxF
+3958 2573 BoxF
+3974 2590 BoxF
+3990 2607 BoxF
+4006 2624 BoxF
+4022 2642 BoxF
+4038 2659 BoxF
+4054 2677 BoxF
+4070 2694 BoxF
+4086 2712 BoxF
+4102 2729 BoxF
+4118 2746 BoxF
+4134 2763 BoxF
+4150 2780 BoxF
+4166 2796 BoxF
+4183 2813 BoxF
+4199 2828 BoxF
+4215 2844 BoxF
+4231 2859 BoxF
+4247 2874 BoxF
+4263 2888 BoxF
+4279 2901 BoxF
+4295 2914 BoxF
+4311 2927 BoxF
+4327 2938 BoxF
+4343 2949 BoxF
+4359 2960 BoxF
+4375 2969 BoxF
+4391 2978 BoxF
+4408 2987 BoxF
+4424 2994 BoxF
+4440 3001 BoxF
+4456 3006 BoxF
+4472 3011 BoxF
+4488 3015 BoxF
+4504 3019 BoxF
+4520 3021 BoxF
+4536 3022 BoxF
+4552 3023 BoxF
+4568 3023 BoxF
+4584 3022 BoxF
+4600 3020 BoxF
+4616 3017 BoxF
+4633 3013 BoxF
+4649 3009 BoxF
+4665 3003 BoxF
+4681 2997 BoxF
+4697 2990 BoxF
+4713 2982 BoxF
+4729 2974 BoxF
+4745 2964 BoxF
+4761 2954 BoxF
+4777 2943 BoxF
+4793 2932 BoxF
+4809 2920 BoxF
+4825 2907 BoxF
+4842 2894 BoxF
+4858 2880 BoxF
+4874 2866 BoxF
+4890 2851 BoxF
+4906 2835 BoxF
+4922 2820 BoxF
+4938 2804 BoxF
+4954 2787 BoxF
+4970 2771 BoxF
+4986 2754 BoxF
+5002 2737 BoxF
+5018 2719 BoxF
+5034 2702 BoxF
+5050 2684 BoxF
+5067 2667 BoxF
+5083 2649 BoxF
+5099 2632 BoxF
+5115 2615 BoxF
+5131 2598 BoxF
+5147 2581 BoxF
+5163 2564 BoxF
+5179 2547 BoxF
+5195 2531 BoxF
+5211 2515 BoxF
+5227 2500 BoxF
+5243 2485 BoxF
+5259 2471 BoxF
+5275 2457 BoxF
+5292 2443 BoxF
+5308 2430 BoxF
+5324 2418 BoxF
+5340 2406 BoxF
+5356 2395 BoxF
+5372 2385 BoxF
+5388 2376 BoxF
+5404 2367 BoxF
+5420 2359 BoxF
+5436 2352 BoxF
+5452 2345 BoxF
+5468 2340 BoxF
+5484 2335 BoxF
+5500 2331 BoxF
+5517 2328 BoxF
+5533 2326 BoxF
+5549 2324 BoxF
+5565 2324 BoxF
+5581 2324 BoxF
+5597 2326 BoxF
+5613 2328 BoxF
+5629 2331 BoxF
+5645 2335 BoxF
+5661 2339 BoxF
+5677 2345 BoxF
+5693 2351 BoxF
+5709 2358 BoxF
+5725 2366 BoxF
+5742 2375 BoxF
+5758 2385 BoxF
+5774 2395 BoxF
+5790 2406 BoxF
+5806 2417 BoxF
+5822 2430 BoxF
+5838 2442 BoxF
+5854 2456 BoxF
+5870 2470 BoxF
+5886 2484 BoxF
+5902 2499 BoxF
+5918 2515 BoxF
+5934 2530 BoxF
+5951 2546 BoxF
+5967 2563 BoxF
+5983 2580 BoxF
+5999 2597 BoxF
+6015 2614 BoxF
+6031 2631 BoxF
+6047 2648 BoxF
+6063 2666 BoxF
+6079 2683 BoxF
+6095 2701 BoxF
+6111 2718 BoxF
+6127 2736 BoxF
+6143 2753 BoxF
+6159 2770 BoxF
+6176 2786 BoxF
+6192 2803 BoxF
+6208 2819 BoxF
+6224 2835 BoxF
+6240 2850 BoxF
+6256 2865 BoxF
+6272 2879 BoxF
+6288 2893 BoxF
+6304 2906 BoxF
+6320 2919 BoxF
+6336 2931 BoxF
+6352 2943 BoxF
+6368 2954 BoxF
+6384 2964 BoxF
+6401 2973 BoxF
+6417 2982 BoxF
+6433 2990 BoxF
+6449 2997 BoxF
+6465 3003 BoxF
+6481 3008 BoxF
+6497 3013 BoxF
+6513 3017 BoxF
+6529 3020 BoxF
+6545 3022 BoxF
+6561 3023 BoxF
+6577 3023 BoxF
+6593 3023 BoxF
+6609 3021 BoxF
+6626 3019 BoxF
+6642 3016 BoxF
+6658 3012 BoxF
+6674 3007 BoxF
+6690 3001 BoxF
+6706 2994 BoxF
+6722 2987 BoxF
+6738 2979 BoxF
+6754 2970 BoxF
+6770 2960 BoxF
+6786 2950 BoxF
+6802 2939 BoxF
+6818 2927 BoxF
+6834 2915 BoxF
+6851 2902 BoxF
+6867 2888 BoxF
+6883 2874 BoxF
+6899 2860 BoxF
+6915 2845 BoxF
+6931 2829 BoxF
+6947 2814 BoxF
+6579 4766 BoxF
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4626 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData1.txt" using 4:3) Rshow
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+534 3023 Box
+550 3021 Box
+566 3019 Box
+582 3017 Box
+598 3013 Box
+614 3008 Box
+631 3003 Box
+647 2997 Box
+663 2990 Box
+679 2983 Box
+695 2975 Box
+711 2966 Box
+727 2956 Box
+743 2946 Box
+759 2935 Box
+775 2923 Box
+791 2911 Box
+807 2898 Box
+823 2885 Box
+839 2871 Box
+856 2856 Box
+872 2842 Box
+888 2826 Box
+904 2811 Box
+920 2795 Box
+936 2779 Box
+952 2762 Box
+968 2745 Box
+984 2728 Box
+1000 2711 Box
+1016 2694 Box
+1032 2677 Box
+1048 2660 Box
+1064 2643 Box
+1081 2626 Box
+1097 2609 Box
+1113 2592 Box
+1129 2575 Box
+1145 2559 Box
+1161 2543 Box
+1177 2527 Box
+1193 2512 Box
+1209 2497 Box
+1225 2482 Box
+1241 2468 Box
+1257 2455 Box
+1273 2442 Box
+1289 2429 Box
+1306 2417 Box
+1322 2406 Box
+1338 2395 Box
+1354 2385 Box
+1370 2376 Box
+1386 2367 Box
+1402 2360 Box
+1418 2353 Box
+1434 2346 Box
+1450 2341 Box
+1466 2336 Box
+1482 2332 Box
+1498 2329 Box
+1514 2326 Box
+1531 2325 Box
+1547 2324 Box
+1563 2324 Box
+1579 2325 Box
+1595 2327 Box
+1611 2329 Box
+1627 2332 Box
+1643 2337 Box
+1659 2341 Box
+1675 2347 Box
+1691 2354 Box
+1707 2361 Box
+1723 2369 Box
+1740 2378 Box
+1756 2387 Box
+1772 2397 Box
+1788 2408 Box
+1804 2419 Box
+1820 2431 Box
+1836 2444 Box
+1852 2457 Box
+1868 2470 Box
+1884 2485 Box
+1900 2499 Box
+1916 2514 Box
+1932 2530 Box
+1948 2546 Box
+1965 2562 Box
+1981 2578 Box
+1997 2595 Box
+2013 2611 Box
+2029 2628 Box
+2045 2646 Box
+2061 2663 Box
+2077 2680 Box
+2093 2697 Box
+2109 2714 Box
+2125 2731 Box
+2141 2748 Box
+2157 2765 Box
+2173 2781 Box
+2190 2797 Box
+2206 2813 Box
+2222 2829 Box
+2238 2844 Box
+2254 2859 Box
+2270 2873 Box
+2286 2887 Box
+2302 2900 Box
+2318 2913 Box
+2334 2925 Box
+2350 2936 Box
+2366 2947 Box
+2382 2958 Box
+2398 2967 Box
+2415 2976 Box
+2431 2984 Box
+2447 2992 Box
+2463 2998 Box
+2479 3004 Box
+2495 3009 Box
+2511 3014 Box
+2527 3017 Box
+2543 3020 Box
+2559 3022 Box
+2575 3023 Box
+2591 3023 Box
+2607 3023 Box
+2623 3021 Box
+2640 3019 Box
+2656 3016 Box
+2672 3012 Box
+2688 3008 Box
+2704 3002 Box
+2720 2996 Box
+2736 2989 Box
+2752 2982 Box
+2768 2973 Box
+2784 2964 Box
+2800 2954 Box
+2816 2944 Box
+2832 2933 Box
+2849 2921 Box
+2865 2909 Box
+2881 2896 Box
+2897 2882 Box
+2913 2868 Box
+2929 2854 Box
+2945 2839 Box
+2961 2824 Box
+2977 2808 Box
+2993 2792 Box
+3009 2776 Box
+3025 2759 Box
+3041 2743 Box
+3057 2726 Box
+3074 2709 Box
+3090 2691 Box
+3106 2674 Box
+3122 2657 Box
+3138 2640 Box
+3154 2623 Box
+3170 2606 Box
+3186 2589 Box
+3202 2573 Box
+3218 2556 Box
+3234 2540 Box
+3250 2525 Box
+3266 2509 Box
+3282 2494 Box
+3299 2480 Box
+3315 2466 Box
+3331 2452 Box
+3347 2439 Box
+3363 2427 Box
+3379 2415 Box
+3395 2404 Box
+3411 2394 Box
+3427 2384 Box
+3443 2375 Box
+3459 2366 Box
+3475 2358 Box
+3491 2351 Box
+3507 2345 Box
+3524 2340 Box
+3540 2335 Box
+3556 2331 Box
+3572 2328 Box
+3588 2326 Box
+3604 2325 Box
+3620 2324 Box
+3636 2324 Box
+3652 2325 Box
+3668 2327 Box
+3684 2330 Box
+3700 2333 Box
+3716 2337 Box
+3733 2342 Box
+3749 2348 Box
+3765 2355 Box
+3781 2362 Box
+3797 2370 Box
+3813 2379 Box
+3829 2388 Box
+3845 2399 Box
+3861 2410 Box
+3877 2421 Box
+3893 2433 Box
+3909 2446 Box
+3925 2459 Box
+3941 2473 Box
+3958 2487 Box
+3974 2502 Box
+3990 2517 Box
+4006 2532 Box
+4022 2548 Box
+4038 2564 Box
+4054 2581 Box
+4070 2597 Box
+4086 2614 Box
+4102 2631 Box
+4118 2648 Box
+4134 2666 Box
+4150 2683 Box
+4166 2700 Box
+4183 2717 Box
+4199 2734 Box
+4215 2751 Box
+4231 2767 Box
+4247 2784 Box
+4263 2800 Box
+4279 2816 Box
+4295 2831 Box
+4311 2846 Box
+4327 2861 Box
+4343 2875 Box
+4359 2889 Box
+4375 2902 Box
+4391 2915 Box
+4408 2927 Box
+4424 2938 Box
+4440 2949 Box
+4456 2959 Box
+4472 2969 Box
+4488 2977 Box
+4504 2985 Box
+4520 2993 Box
+4536 2999 Box
+4552 3005 Box
+4568 3010 Box
+4584 3014 Box
+4600 3018 Box
+4616 3020 Box
+4633 3022 Box
+4649 3023 Box
+4665 3023 Box
+4681 3022 Box
+4697 3021 Box
+4713 3019 Box
+4729 3015 Box
+4745 3012 Box
+4761 3007 Box
+4777 3001 Box
+4793 2995 Box
+4809 2988 Box
+4825 2980 Box
+4842 2972 Box
+4858 2963 Box
+4874 2953 Box
+4890 2942 Box
+4906 2931 Box
+4922 2919 Box
+4938 2907 Box
+4954 2894 Box
+4970 2880 Box
+4986 2866 Box
+5002 2852 Box
+5018 2837 Box
+5034 2821 Box
+5050 2806 Box
+5067 2790 Box
+5083 2773 Box
+5099 2757 Box
+5115 2740 Box
+5131 2723 Box
+5147 2706 Box
+5163 2689 Box
+5179 2671 Box
+5195 2654 Box
+5211 2637 Box
+5227 2620 Box
+5243 2603 Box
+5259 2586 Box
+5275 2570 Box
+5292 2554 Box
+5308 2538 Box
+5324 2522 Box
+5340 2507 Box
+5356 2492 Box
+5372 2478 Box
+5388 2464 Box
+5404 2450 Box
+5420 2437 Box
+5436 2425 Box
+5452 2413 Box
+5468 2402 Box
+5484 2392 Box
+5500 2382 Box
+5517 2373 Box
+5533 2365 Box
+5549 2357 Box
+5565 2350 Box
+5581 2344 Box
+5597 2339 Box
+5613 2334 Box
+5629 2331 Box
+5645 2328 Box
+5661 2326 Box
+5677 2324 Box
+5693 2324 Box
+5709 2324 Box
+5725 2325 Box
+5742 2327 Box
+5758 2330 Box
+5774 2334 Box
+5790 2338 Box
+5806 2343 Box
+5822 2349 Box
+5838 2356 Box
+5854 2363 Box
+5870 2372 Box
+5886 2381 Box
+5902 2390 Box
+5918 2400 Box
+5934 2411 Box
+5951 2423 Box
+5967 2435 Box
+5983 2448 Box
+5999 2461 Box
+6015 2475 Box
+6031 2489 Box
+6047 2504 Box
+6063 2519 Box
+6079 2535 Box
+6095 2551 Box
+6111 2567 Box
+6127 2583 Box
+6143 2600 Box
+6159 2617 Box
+6176 2634 Box
+6192 2651 Box
+6208 2668 Box
+6224 2686 Box
+6240 2703 Box
+6256 2720 Box
+6272 2737 Box
+6288 2754 Box
+6304 2770 Box
+6320 2787 Box
+6336 2803 Box
+6352 2818 Box
+6368 2834 Box
+6384 2849 Box
+6401 2863 Box
+6417 2878 Box
+6433 2891 Box
+6449 2904 Box
+6465 2917 Box
+6481 2929 Box
+6497 2940 Box
+6513 2951 Box
+6529 2961 Box
+6545 2970 Box
+6561 2979 Box
+6577 2987 Box
+6593 2994 Box
+6609 3000 Box
+6626 3006 Box
+6642 3011 Box
+6658 3015 Box
+6674 3018 Box
+6690 3021 Box
+6706 3022 Box
+6722 3023 Box
+6738 3023 Box
+6754 3022 Box
+6770 3021 Box
+6786 3018 Box
+6802 3015 Box
+6818 3011 Box
+6834 3006 Box
+6851 3000 Box
+6867 2994 Box
+6883 2987 Box
+6899 2979 Box
+6915 2970 Box
+6931 2961 Box
+6947 2951 Box
+6579 4626 Box
+% End plot #2
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Page: 3 3
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(color) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 448 M
+[ [(color) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1004 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1004 M
+[ [(color) 140.0 0.0 true true 0 (-3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1561 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1561 M
+[ [(color) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2117 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2117 M
+[ [(color) 140.0 0.0 true true 0 (-1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2674 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2674 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3230 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3230 M
+[ [(color) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3786 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3786 M
+[ [(color) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4343 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4343 M
+[ [(color) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4899 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4899 M
+[ [(color) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+518 308 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2125 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2125 308 M
+[ [(color) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3733 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3733 308 M
+[ [(color) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5340 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5340 308 M
+[ [(color) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6947 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6947 308 M
+[ [(color) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(color) 140.0 0.0 true true 0 (Theta)]
+] -46.7 MCshow
+grestore
+/color findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3732 98 M
+[ [(color) 140.0 0.0 true true 0 (t)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4766 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData2.txt" using 2:1) Rshow
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+534 3546 BoxF
+550 3543 BoxF
+566 3538 BoxF
+582 3530 BoxF
+598 3520 BoxF
+614 3508 BoxF
+631 3494 BoxF
+647 3478 BoxF
+663 3460 BoxF
+679 3440 BoxF
+695 3418 BoxF
+711 3395 BoxF
+727 3369 BoxF
+743 3342 BoxF
+759 3313 BoxF
+775 3282 BoxF
+791 3250 BoxF
+807 3217 BoxF
+823 3182 BoxF
+839 3145 BoxF
+856 3108 BoxF
+872 3070 BoxF
+888 3030 BoxF
+904 2990 BoxF
+920 2949 BoxF
+936 2907 BoxF
+952 2864 BoxF
+968 2822 BoxF
+984 2778 BoxF
+1000 2735 BoxF
+1016 2691 BoxF
+1032 2647 BoxF
+1048 2604 BoxF
+1064 2560 BoxF
+1081 2517 BoxF
+1097 2474 BoxF
+1113 2432 BoxF
+1129 2390 BoxF
+1145 2349 BoxF
+1161 2309 BoxF
+1177 2270 BoxF
+1193 2232 BoxF
+1209 2194 BoxF
+1225 2159 BoxF
+1241 2124 BoxF
+1257 2091 BoxF
+1273 2059 BoxF
+1289 2028 BoxF
+1306 2000 BoxF
+1322 1973 BoxF
+1338 1948 BoxF
+1354 1924 BoxF
+1370 1903 BoxF
+1386 1883 BoxF
+1402 1865 BoxF
+1418 1850 BoxF
+1434 1836 BoxF
+1450 1825 BoxF
+1466 1815 BoxF
+1482 1808 BoxF
+1498 1803 BoxF
+1514 1800 BoxF
+1531 1800 BoxF
+1547 1801 BoxF
+1563 1805 BoxF
+1579 1811 BoxF
+1595 1819 BoxF
+1611 1829 BoxF
+1627 1841 BoxF
+1643 1855 BoxF
+1659 1872 BoxF
+1675 1890 BoxF
+1691 1911 BoxF
+1707 1933 BoxF
+1723 1957 BoxF
+1740 1983 BoxF
+1756 2011 BoxF
+1772 2040 BoxF
+1788 2071 BoxF
+1804 2103 BoxF
+1820 2137 BoxF
+1836 2172 BoxF
+1852 2209 BoxF
+1868 2246 BoxF
+1884 2285 BoxF
+1900 2325 BoxF
+1916 2365 BoxF
+1932 2406 BoxF
+1948 2448 BoxF
+1965 2491 BoxF
+1981 2534 BoxF
+1997 2577 BoxF
+2013 2621 BoxF
+2029 2664 BoxF
+2045 2708 BoxF
+2061 2752 BoxF
+2077 2795 BoxF
+2093 2838 BoxF
+2109 2881 BoxF
+2125 2923 BoxF
+2141 2965 BoxF
+2157 3006 BoxF
+2173 3046 BoxF
+2190 3085 BoxF
+2206 3123 BoxF
+2222 3160 BoxF
+2238 3195 BoxF
+2254 3230 BoxF
+2270 3263 BoxF
+2286 3294 BoxF
+2302 3324 BoxF
+2318 3353 BoxF
+2334 3379 BoxF
+2350 3404 BoxF
+2366 3427 BoxF
+2382 3448 BoxF
+2398 3468 BoxF
+2415 3485 BoxF
+2431 3500 BoxF
+2447 3513 BoxF
+2463 3524 BoxF
+2479 3533 BoxF
+2495 3540 BoxF
+2511 3545 BoxF
+2527 3547 BoxF
+2543 3547 BoxF
+2559 3545 BoxF
+2575 3541 BoxF
+2591 3535 BoxF
+2607 3527 BoxF
+2623 3516 BoxF
+2640 3503 BoxF
+2656 3489 BoxF
+2672 3472 BoxF
+2688 3453 BoxF
+2704 3432 BoxF
+2720 3410 BoxF
+2736 3385 BoxF
+2752 3359 BoxF
+2768 3331 BoxF
+2784 3301 BoxF
+2800 3270 BoxF
+2816 3237 BoxF
+2832 3203 BoxF
+2849 3168 BoxF
+2865 3131 BoxF
+2881 3093 BoxF
+2897 3054 BoxF
+2913 3015 BoxF
+2929 2974 BoxF
+2945 2933 BoxF
+2961 2890 BoxF
+2977 2848 BoxF
+2993 2805 BoxF
+3009 2761 BoxF
+3025 2718 BoxF
+3041 2674 BoxF
+3057 2630 BoxF
+3074 2587 BoxF
+3090 2543 BoxF
+3106 2500 BoxF
+3122 2458 BoxF
+3138 2416 BoxF
+3154 2374 BoxF
+3170 2334 BoxF
+3186 2294 BoxF
+3202 2255 BoxF
+3218 2217 BoxF
+3234 2180 BoxF
+3250 2145 BoxF
+3266 2111 BoxF
+3282 2078 BoxF
+3299 2047 BoxF
+3315 2017 BoxF
+3331 1989 BoxF
+3347 1963 BoxF
+3363 1938 BoxF
+3379 1915 BoxF
+3395 1895 BoxF
+3411 1876 BoxF
+3427 1859 BoxF
+3443 1844 BoxF
+3459 1831 BoxF
+3475 1821 BoxF
+3491 1812 BoxF
+3507 1806 BoxF
+3524 1802 BoxF
+3540 1800 BoxF
+3556 1800 BoxF
+3572 1802 BoxF
+3588 1807 BoxF
+3604 1813 BoxF
+3620 1822 BoxF
+3636 1833 BoxF
+3652 1846 BoxF
+3668 1862 BoxF
+3684 1879 BoxF
+3700 1898 BoxF
+3716 1919 BoxF
+3733 1942 BoxF
+3749 1967 BoxF
+3765 1994 BoxF
+3781 2022 BoxF
+3797 2052 BoxF
+3813 2083 BoxF
+3829 2116 BoxF
+3845 2151 BoxF
+3861 2186 BoxF
+3877 2223 BoxF
+3893 2261 BoxF
+3909 2300 BoxF
+3925 2340 BoxF
+3941 2381 BoxF
+3958 2423 BoxF
+3974 2465 BoxF
+3990 2507 BoxF
+4006 2551 BoxF
+4022 2594 BoxF
+4038 2638 BoxF
+4054 2681 BoxF
+4070 2725 BoxF
+4086 2769 BoxF
+4102 2812 BoxF
+4118 2855 BoxF
+4134 2897 BoxF
+4150 2939 BoxF
+4166 2981 BoxF
+4183 3021 BoxF
+4199 3061 BoxF
+4215 3100 BoxF
+4231 3137 BoxF
+4247 3174 BoxF
+4263 3209 BoxF
+4279 3243 BoxF
+4295 3275 BoxF
+4311 3306 BoxF
+4327 3336 BoxF
+4343 3363 BoxF
+4359 3389 BoxF
+4375 3413 BoxF
+4391 3436 BoxF
+4408 3456 BoxF
+4424 3475 BoxF
+4440 3491 BoxF
+4456 3506 BoxF
+4472 3518 BoxF
+4488 3528 BoxF
+4504 3536 BoxF
+4520 3542 BoxF
+4536 3546 BoxF
+4552 3548 BoxF
+4568 3547 BoxF
+4584 3544 BoxF
+4600 3539 BoxF
+4616 3532 BoxF
+4633 3523 BoxF
+4649 3511 BoxF
+4665 3498 BoxF
+4681 3482 BoxF
+4697 3465 BoxF
+4713 3445 BoxF
+4729 3424 BoxF
+4745 3400 BoxF
+4761 3375 BoxF
+4777 3348 BoxF
+4793 3320 BoxF
+4809 3289 BoxF
+4825 3257 BoxF
+4842 3224 BoxF
+4858 3190 BoxF
+4874 3154 BoxF
+4890 3117 BoxF
+4906 3078 BoxF
+4922 3039 BoxF
+4938 2999 BoxF
+4954 2958 BoxF
+4970 2916 BoxF
+4986 2874 BoxF
+5002 2831 BoxF
+5018 2788 BoxF
+5034 2745 BoxF
+5050 2701 BoxF
+5067 2657 BoxF
+5083 2613 BoxF
+5099 2570 BoxF
+5115 2527 BoxF
+5131 2484 BoxF
+5147 2441 BoxF
+5163 2399 BoxF
+5179 2358 BoxF
+5195 2318 BoxF
+5211 2278 BoxF
+5227 2240 BoxF
+5243 2203 BoxF
+5259 2166 BoxF
+5275 2131 BoxF
+5292 2098 BoxF
+5308 2066 BoxF
+5324 2035 BoxF
+5340 2006 BoxF
+5356 1978 BoxF
+5372 1953 BoxF
+5388 1929 BoxF
+5404 1907 BoxF
+5420 1887 BoxF
+5436 1869 BoxF
+5452 1853 BoxF
+5468 1839 BoxF
+5484 1827 BoxF
+5500 1817 BoxF
+5517 1809 BoxF
+5533 1804 BoxF
+5549 1800 BoxF
+5565 1799 BoxF
+5581 1800 BoxF
+5597 1804 BoxF
+5613 1809 BoxF
+5629 1817 BoxF
+5645 1826 BoxF
+5661 1838 BoxF
+5677 1852 BoxF
+5693 1868 BoxF
+5709 1886 BoxF
+5725 1906 BoxF
+5742 1928 BoxF
+5758 1951 BoxF
+5774 1977 BoxF
+5790 2004 BoxF
+5806 2033 BoxF
+5822 2064 BoxF
+5838 2096 BoxF
+5854 2129 BoxF
+5870 2164 BoxF
+5886 2200 BoxF
+5902 2238 BoxF
+5918 2276 BoxF
+5934 2316 BoxF
+5951 2356 BoxF
+5967 2397 BoxF
+5983 2439 BoxF
+5999 2481 BoxF
+6015 2524 BoxF
+6031 2567 BoxF
+6047 2611 BoxF
+6063 2655 BoxF
+6079 2698 BoxF
+6095 2742 BoxF
+6111 2786 BoxF
+6127 2829 BoxF
+6143 2872 BoxF
+6159 2914 BoxF
+6176 2956 BoxF
+6192 2997 BoxF
+6208 3037 BoxF
+6224 3076 BoxF
+6240 3114 BoxF
+6256 3152 BoxF
+6272 3188 BoxF
+6288 3222 BoxF
+6304 3256 BoxF
+6320 3288 BoxF
+6336 3318 BoxF
+6352 3347 BoxF
+6368 3374 BoxF
+6384 3399 BoxF
+6401 3422 BoxF
+6417 3444 BoxF
+6433 3464 BoxF
+6449 3481 BoxF
+6465 3497 BoxF
+6481 3511 BoxF
+6497 3522 BoxF
+6513 3532 BoxF
+6529 3539 BoxF
+6545 3544 BoxF
+6561 3547 BoxF
+6577 3548 BoxF
+6593 3546 BoxF
+6609 3543 BoxF
+6626 3537 BoxF
+6642 3529 BoxF
+6658 3519 BoxF
+6674 3506 BoxF
+6690 3492 BoxF
+6706 3476 BoxF
+6722 3457 BoxF
+6738 3437 BoxF
+6754 3415 BoxF
+6770 3391 BoxF
+6786 3365 BoxF
+6802 3337 BoxF
+6818 3308 BoxF
+6834 3277 BoxF
+6851 3245 BoxF
+6867 3211 BoxF
+6883 3176 BoxF
+6899 3139 BoxF
+6915 3102 BoxF
+6931 3063 BoxF
+6947 3024 BoxF
+6579 4766 BoxF
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4626 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData2.txt" using 4:3) Rshow
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+534 3547 Box
+550 3545 Box
+566 3541 Box
+582 3536 Box
+598 3530 Box
+614 3522 Box
+631 3513 Box
+647 3503 Box
+663 3491 Box
+679 3478 Box
+695 3463 Box
+711 3447 Box
+727 3430 Box
+743 3411 Box
+759 3391 Box
+775 3370 Box
+791 3347 Box
+807 3323 Box
+823 3298 Box
+839 3272 Box
+856 3244 Box
+872 3215 Box
+888 3185 Box
+904 3154 Box
+920 3121 Box
+936 3088 Box
+952 3054 Box
+968 3019 Box
+984 2983 Box
+1000 2946 Box
+1016 2909 Box
+1032 2871 Box
+1048 2833 Box
+1064 2794 Box
+1081 2755 Box
+1097 2716 Box
+1113 2677 Box
+1129 2637 Box
+1145 2598 Box
+1161 2559 Box
+1177 2520 Box
+1193 2482 Box
+1209 2444 Box
+1225 2407 Box
+1241 2370 Box
+1257 2334 Box
+1273 2299 Box
+1289 2264 Box
+1306 2231 Box
+1322 2199 Box
+1338 2167 Box
+1354 2137 Box
+1370 2108 Box
+1386 2080 Box
+1402 2053 Box
+1418 2028 Box
+1434 2003 Box
+1450 1981 Box
+1466 1959 Box
+1482 1939 Box
+1498 1920 Box
+1514 1902 Box
+1531 1886 Box
+1547 1871 Box
+1563 1858 Box
+1579 1846 Box
+1595 1835 Box
+1611 1826 Box
+1627 1818 Box
+1643 1812 Box
+1659 1807 Box
+1675 1803 Box
+1691 1800 Box
+1707 1800 Box
+1723 1800 Box
+1740 1802 Box
+1756 1805 Box
+1772 1810 Box
+1788 1816 Box
+1804 1823 Box
+1820 1832 Box
+1836 1842 Box
+1852 1854 Box
+1868 1867 Box
+1884 1881 Box
+1900 1897 Box
+1916 1914 Box
+1932 1932 Box
+1948 1952 Box
+1965 1973 Box
+1981 1996 Box
+1997 2020 Box
+2013 2045 Box
+2029 2071 Box
+2045 2099 Box
+2061 2127 Box
+2077 2157 Box
+2093 2188 Box
+2109 2220 Box
+2125 2253 Box
+2141 2287 Box
+2157 2322 Box
+2173 2358 Box
+2190 2395 Box
+2206 2432 Box
+2222 2470 Box
+2238 2508 Box
+2254 2546 Box
+2270 2585 Box
+2286 2625 Box
+2302 2664 Box
+2318 2703 Box
+2334 2742 Box
+2350 2782 Box
+2366 2820 Box
+2382 2859 Box
+2398 2897 Box
+2415 2934 Box
+2431 2971 Box
+2447 3007 Box
+2463 3043 Box
+2479 3077 Box
+2495 3111 Box
+2511 3143 Box
+2527 3175 Box
+2543 3205 Box
+2559 3235 Box
+2575 3263 Box
+2591 3290 Box
+2607 3315 Box
+2623 3340 Box
+2640 3363 Box
+2656 3385 Box
+2672 3405 Box
+2688 3424 Box
+2704 3442 Box
+2720 3458 Box
+2736 3473 Box
+2752 3487 Box
+2768 3499 Box
+2784 3510 Box
+2800 3520 Box
+2816 3528 Box
+2832 3534 Box
+2849 3540 Box
+2865 3544 Box
+2881 3546 Box
+2897 3547 Box
+2913 3547 Box
+2929 3546 Box
+2945 3542 Box
+2961 3538 Box
+2977 3532 Box
+2993 3525 Box
+3009 3516 Box
+3025 3507 Box
+3041 3495 Box
+3057 3482 Box
+3074 3468 Box
+3090 3453 Box
+3106 3436 Box
+3122 3418 Box
+3138 3398 Box
+3154 3377 Box
+3170 3355 Box
+3186 3331 Box
+3202 3306 Box
+3218 3280 Box
+3234 3253 Box
+3250 3224 Box
+3266 3195 Box
+3282 3164 Box
+3299 3132 Box
+3315 3099 Box
+3331 3065 Box
+3347 3030 Box
+3363 2995 Box
+3379 2958 Box
+3395 2921 Box
+3411 2884 Box
+3427 2846 Box
+3443 2807 Box
+3459 2768 Box
+3475 2729 Box
+3491 2690 Box
+3507 2650 Box
+3524 2611 Box
+3540 2572 Box
+3556 2533 Box
+3572 2494 Box
+3588 2456 Box
+3604 2419 Box
+3620 2382 Box
+3636 2346 Box
+3652 2310 Box
+3668 2275 Box
+3684 2242 Box
+3700 2209 Box
+3716 2177 Box
+3733 2147 Box
+3749 2117 Box
+3765 2089 Box
+3781 2062 Box
+3797 2036 Box
+3813 2011 Box
+3829 1988 Box
+3845 1966 Box
+3861 1945 Box
+3877 1926 Box
+3893 1908 Box
+3909 1891 Box
+3925 1876 Box
+3941 1862 Box
+3958 1850 Box
+3974 1839 Box
+3990 1829 Box
+4006 1820 Box
+4022 1814 Box
+4038 1808 Box
+4054 1804 Box
+4070 1801 Box
+4086 1800 Box
+4102 1800 Box
+4118 1801 Box
+4134 1804 Box
+4150 1808 Box
+4166 1814 Box
+4183 1821 Box
+4199 1829 Box
+4215 1839 Box
+4231 1850 Box
+4247 1862 Box
+4263 1876 Box
+4279 1892 Box
+4295 1908 Box
+4311 1926 Box
+4327 1946 Box
+4343 1966 Box
+4359 1988 Box
+4375 2012 Box
+4391 2036 Box
+4408 2062 Box
+4424 2089 Box
+4440 2118 Box
+4456 2147 Box
+4472 2178 Box
+4488 2210 Box
+4504 2243 Box
+4520 2276 Box
+4536 2311 Box
+4552 2346 Box
+4568 2383 Box
+4584 2420 Box
+4600 2457 Box
+4616 2495 Box
+4633 2534 Box
+4649 2573 Box
+4665 2612 Box
+4681 2651 Box
+4697 2690 Box
+4713 2730 Box
+4729 2769 Box
+4745 2808 Box
+4761 2846 Box
+4777 2885 Box
+4793 2922 Box
+4809 2959 Box
+4825 2996 Box
+4842 3031 Box
+4858 3066 Box
+4874 3100 Box
+4890 3133 Box
+4906 3165 Box
+4922 3195 Box
+4938 3225 Box
+4954 3254 Box
+4970 3281 Box
+4986 3307 Box
+5002 3332 Box
+5018 3355 Box
+5034 3378 Box
+5050 3399 Box
+5067 3418 Box
+5083 3436 Box
+5099 3453 Box
+5115 3469 Box
+5131 3483 Box
+5147 3495 Box
+5163 3507 Box
+5179 3517 Box
+5195 3525 Box
+5211 3532 Box
+5227 3538 Box
+5243 3543 Box
+5259 3546 Box
+5275 3547 Box
+5292 3547 Box
+5308 3546 Box
+5324 3544 Box
+5340 3540 Box
+5356 3534 Box
+5372 3528 Box
+5388 3519 Box
+5404 3510 Box
+5420 3499 Box
+5436 3487 Box
+5452 3473 Box
+5468 3458 Box
+5484 3442 Box
+5500 3424 Box
+5517 3405 Box
+5533 3384 Box
+5549 3362 Box
+5565 3339 Box
+5581 3315 Box
+5597 3289 Box
+5613 3262 Box
+5629 3234 Box
+5645 3205 Box
+5661 3174 Box
+5677 3143 Box
+5693 3110 Box
+5709 3076 Box
+5725 3042 Box
+5742 3006 Box
+5758 2970 Box
+5774 2933 Box
+5790 2896 Box
+5806 2858 Box
+5822 2820 Box
+5838 2781 Box
+5854 2742 Box
+5870 2702 Box
+5886 2663 Box
+5902 2624 Box
+5918 2585 Box
+5934 2546 Box
+5951 2507 Box
+5967 2469 Box
+5983 2431 Box
+5999 2394 Box
+6015 2357 Box
+6031 2322 Box
+6047 2287 Box
+6063 2253 Box
+6079 2220 Box
+6095 2188 Box
+6111 2157 Box
+6127 2127 Box
+6143 2098 Box
+6159 2070 Box
+6176 2044 Box
+6192 2019 Box
+6208 1995 Box
+6224 1973 Box
+6240 1952 Box
+6256 1932 Box
+6272 1914 Box
+6288 1897 Box
+6304 1881 Box
+6320 1867 Box
+6336 1854 Box
+6352 1842 Box
+6368 1832 Box
+6384 1823 Box
+6401 1816 Box
+6417 1810 Box
+6433 1805 Box
+6449 1802 Box
+6465 1800 Box
+6481 1800 Box
+6497 1801 Box
+6513 1803 Box
+6529 1807 Box
+6545 1812 Box
+6561 1818 Box
+6577 1826 Box
+6593 1835 Box
+6609 1846 Box
+6626 1858 Box
+6642 1872 Box
+6658 1886 Box
+6674 1903 Box
+6690 1920 Box
+6706 1939 Box
+6722 1959 Box
+6738 1981 Box
+6754 2004 Box
+6770 2028 Box
+6786 2054 Box
+6802 2080 Box
+6818 2108 Box
+6834 2138 Box
+6851 2168 Box
+6867 2199 Box
+6883 2232 Box
+6899 2265 Box
+6915 2299 Box
+6931 2335 Box
+6947 2371 Box
+6579 4626 Box
+% End plot #2
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Page: 4 4
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(color) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 448 M
+[ [(color) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1004 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1004 M
+[ [(color) 140.0 0.0 true true 0 (-3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1561 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1561 M
+[ [(color) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2117 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2117 M
+[ [(color) 140.0 0.0 true true 0 (-1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2674 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2674 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3230 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3230 M
+[ [(color) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3786 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3786 M
+[ [(color) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4343 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4343 M
+[ [(color) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4899 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4899 M
+[ [(color) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+518 308 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2125 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2125 308 M
+[ [(color) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3733 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3733 308 M
+[ [(color) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5340 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5340 308 M
+[ [(color) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6947 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6947 308 M
+[ [(color) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(color) 140.0 0.0 true true 0 (Theta)]
+] -46.7 MCshow
+grestore
+/color findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3732 98 M
+[ [(color) 140.0 0.0 true true 0 (t)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4766 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData3.txt" using 2:1) Rshow
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+534 4245 BoxF
+550 4239 BoxF
+566 4229 BoxF
+582 4215 BoxF
+598 4198 BoxF
+614 4176 BoxF
+631 4151 BoxF
+647 4122 BoxF
+663 4090 BoxF
+679 4054 BoxF
+695 4014 BoxF
+711 3972 BoxF
+727 3926 BoxF
+743 3876 BoxF
+759 3824 BoxF
+775 3769 BoxF
+791 3711 BoxF
+807 3651 BoxF
+823 3588 BoxF
+839 3523 BoxF
+856 3456 BoxF
+872 3386 BoxF
+888 3315 BoxF
+904 3243 BoxF
+920 3169 BoxF
+936 3093 BoxF
+952 3017 BoxF
+968 2940 BoxF
+984 2862 BoxF
+1000 2784 BoxF
+1016 2705 BoxF
+1032 2627 BoxF
+1048 2548 BoxF
+1064 2470 BoxF
+1081 2392 BoxF
+1097 2315 BoxF
+1113 2239 BoxF
+1129 2164 BoxF
+1145 2090 BoxF
+1161 2018 BoxF
+1177 1947 BoxF
+1193 1878 BoxF
+1209 1811 BoxF
+1225 1747 BoxF
+1241 1684 BoxF
+1257 1624 BoxF
+1273 1567 BoxF
+1289 1512 BoxF
+1306 1461 BoxF
+1322 1412 BoxF
+1338 1367 BoxF
+1354 1325 BoxF
+1370 1286 BoxF
+1386 1250 BoxF
+1402 1219 BoxF
+1418 1191 BoxF
+1434 1166 BoxF
+1450 1146 BoxF
+1466 1129 BoxF
+1482 1116 BoxF
+1498 1107 BoxF
+1514 1102 BoxF
+1531 1100 BoxF
+1547 1103 BoxF
+1563 1110 BoxF
+1579 1120 BoxF
+1595 1135 BoxF
+1611 1153 BoxF
+1627 1175 BoxF
+1643 1201 BoxF
+1659 1231 BoxF
+1675 1264 BoxF
+1691 1300 BoxF
+1707 1341 BoxF
+1723 1384 BoxF
+1740 1431 BoxF
+1756 1480 BoxF
+1772 1533 BoxF
+1788 1589 BoxF
+1804 1647 BoxF
+1820 1708 BoxF
+1836 1771 BoxF
+1852 1837 BoxF
+1868 1905 BoxF
+1884 1974 BoxF
+1900 2046 BoxF
+1916 2118 BoxF
+1932 2193 BoxF
+1948 2268 BoxF
+1965 2345 BoxF
+1981 2422 BoxF
+1997 2500 BoxF
+2013 2578 BoxF
+2029 2657 BoxF
+2045 2736 BoxF
+2061 2814 BoxF
+2077 2892 BoxF
+2093 2970 BoxF
+2109 3047 BoxF
+2125 3123 BoxF
+2141 3198 BoxF
+2157 3271 BoxF
+2173 3343 BoxF
+2190 3414 BoxF
+2206 3482 BoxF
+2222 3549 BoxF
+2238 3613 BoxF
+2254 3675 BoxF
+2270 3734 BoxF
+2286 3791 BoxF
+2302 3845 BoxF
+2318 3896 BoxF
+2334 3944 BoxF
+2350 3989 BoxF
+2366 4030 BoxF
+2382 4068 BoxF
+2398 4103 BoxF
+2415 4134 BoxF
+2431 4162 BoxF
+2447 4185 BoxF
+2463 4205 BoxF
+2479 4221 BoxF
+2495 4233 BoxF
+2511 4242 BoxF
+2527 4246 BoxF
+2543 4246 BoxF
+2559 4243 BoxF
+2575 4236 BoxF
+2591 4224 BoxF
+2607 4209 BoxF
+2623 4190 BoxF
+2640 4167 BoxF
+2656 4141 BoxF
+2672 4110 BoxF
+2688 4076 BoxF
+2704 4039 BoxF
+2720 3998 BoxF
+2736 3954 BoxF
+2752 3907 BoxF
+2768 3857 BoxF
+2784 3803 BoxF
+2800 3747 BoxF
+2816 3688 BoxF
+2832 3627 BoxF
+2849 3563 BoxF
+2865 3497 BoxF
+2881 3429 BoxF
+2897 3359 BoxF
+2913 3287 BoxF
+2929 3214 BoxF
+2945 3140 BoxF
+2961 3064 BoxF
+2977 2987 BoxF
+2993 2910 BoxF
+3009 2832 BoxF
+3025 2753 BoxF
+3041 2675 BoxF
+3057 2596 BoxF
+3074 2517 BoxF
+3090 2439 BoxF
+3106 2362 BoxF
+3122 2285 BoxF
+3138 2209 BoxF
+3154 2135 BoxF
+3170 2062 BoxF
+3186 1990 BoxF
+3202 1920 BoxF
+3218 1852 BoxF
+3234 1786 BoxF
+3250 1722 BoxF
+3266 1660 BoxF
+3282 1602 BoxF
+3299 1545 BoxF
+3315 1492 BoxF
+3331 1441 BoxF
+3347 1394 BoxF
+3363 1350 BoxF
+3379 1309 BoxF
+3395 1272 BoxF
+3411 1238 BoxF
+3427 1207 BoxF
+3443 1181 BoxF
+3459 1158 BoxF
+3475 1138 BoxF
+3491 1123 BoxF
+3507 1112 BoxF
+3524 1104 BoxF
+3540 1100 BoxF
+3556 1101 BoxF
+3572 1105 BoxF
+3588 1113 BoxF
+3604 1125 BoxF
+3620 1141 BoxF
+3636 1161 BoxF
+3652 1185 BoxF
+3668 1212 BoxF
+3684 1243 BoxF
+3700 1277 BoxF
+3716 1315 BoxF
+3733 1357 BoxF
+3749 1402 BoxF
+3765 1450 BoxF
+3781 1500 BoxF
+3797 1554 BoxF
+3813 1611 BoxF
+3829 1670 BoxF
+3845 1732 BoxF
+3861 1797 BoxF
+3877 1863 BoxF
+3893 1931 BoxF
+3909 2002 BoxF
+3925 2074 BoxF
+3941 2147 BoxF
+3958 2222 BoxF
+3974 2298 BoxF
+3990 2375 BoxF
+4006 2452 BoxF
+4022 2530 BoxF
+4038 2609 BoxF
+4054 2688 BoxF
+4070 2766 BoxF
+4086 2845 BoxF
+4102 2923 BoxF
+4118 3000 BoxF
+4134 3077 BoxF
+4150 3152 BoxF
+4166 3227 BoxF
+4183 3299 BoxF
+4199 3371 BoxF
+4215 3441 BoxF
+4231 3508 BoxF
+4247 3574 BoxF
+4263 3637 BoxF
+4279 3698 BoxF
+4295 3757 BoxF
+4311 3812 BoxF
+4327 3865 BoxF
+4343 3915 BoxF
+4359 3962 BoxF
+4375 4005 BoxF
+4391 4046 BoxF
+4408 4082 BoxF
+4424 4116 BoxF
+4440 4145 BoxF
+4456 4171 BoxF
+4472 4194 BoxF
+4488 4212 BoxF
+4504 4227 BoxF
+4520 4237 BoxF
+4536 4244 BoxF
+4552 4247 BoxF
+4568 4246 BoxF
+4584 4241 BoxF
+4600 4232 BoxF
+4616 4219 BoxF
+4633 4202 BoxF
+4649 4182 BoxF
+4665 4157 BoxF
+4681 4129 BoxF
+4697 4098 BoxF
+4713 4062 BoxF
+4729 4024 BoxF
+4745 3982 BoxF
+4761 3936 BoxF
+4777 3888 BoxF
+4793 3836 BoxF
+4809 3782 BoxF
+4825 3725 BoxF
+4842 3665 BoxF
+4858 3602 BoxF
+4874 3538 BoxF
+4890 3471 BoxF
+4906 3402 BoxF
+4922 3332 BoxF
+4938 3259 BoxF
+4954 3185 BoxF
+4970 3110 BoxF
+4986 3034 BoxF
+5002 2957 BoxF
+5018 2880 BoxF
+5034 2801 BoxF
+5050 2723 BoxF
+5067 2644 BoxF
+5083 2565 BoxF
+5099 2487 BoxF
+5115 2409 BoxF
+5131 2332 BoxF
+5147 2256 BoxF
+5163 2180 BoxF
+5179 2106 BoxF
+5195 2033 BoxF
+5211 1962 BoxF
+5227 1893 BoxF
+5243 1826 BoxF
+5259 1761 BoxF
+5275 1698 BoxF
+5292 1637 BoxF
+5308 1579 BoxF
+5324 1524 BoxF
+5340 1472 BoxF
+5356 1422 BoxF
+5372 1376 BoxF
+5388 1333 BoxF
+5404 1294 BoxF
+5420 1258 BoxF
+5436 1225 BoxF
+5452 1196 BoxF
+5468 1171 BoxF
+5484 1150 BoxF
+5500 1132 BoxF
+5517 1118 BoxF
+5533 1108 BoxF
+5549 1102 BoxF
+5565 1100 BoxF
+5581 1102 BoxF
+5597 1108 BoxF
+5613 1117 BoxF
+5629 1131 BoxF
+5645 1148 BoxF
+5661 1170 BoxF
+5677 1195 BoxF
+5693 1223 BoxF
+5709 1256 BoxF
+5725 1292 BoxF
+5742 1331 BoxF
+5758 1374 BoxF
+5774 1420 BoxF
+5790 1469 BoxF
+5806 1521 BoxF
+5822 1576 BoxF
+5838 1634 BoxF
+5854 1694 BoxF
+5870 1757 BoxF
+5886 1822 BoxF
+5902 1889 BoxF
+5918 1958 BoxF
+5934 2029 BoxF
+5951 2102 BoxF
+5967 2176 BoxF
+5983 2251 BoxF
+5999 2328 BoxF
+6015 2405 BoxF
+6031 2483 BoxF
+6047 2561 BoxF
+6063 2640 BoxF
+6079 2718 BoxF
+6095 2797 BoxF
+6111 2875 BoxF
+6127 2953 BoxF
+6143 3030 BoxF
+6159 3106 BoxF
+6176 3181 BoxF
+6192 3255 BoxF
+6208 3327 BoxF
+6224 3398 BoxF
+6240 3467 BoxF
+6256 3534 BoxF
+6272 3599 BoxF
+6288 3661 BoxF
+6304 3721 BoxF
+6320 3779 BoxF
+6336 3833 BoxF
+6352 3885 BoxF
+6368 3934 BoxF
+6384 3979 BoxF
+6401 4022 BoxF
+6417 4060 BoxF
+6433 4096 BoxF
+6449 4128 BoxF
+6465 4156 BoxF
+6481 4181 BoxF
+6497 4201 BoxF
+6513 4218 BoxF
+6529 4231 BoxF
+6545 4240 BoxF
+6561 4246 BoxF
+6577 4247 BoxF
+6593 4244 BoxF
+6609 4238 BoxF
+6626 4227 BoxF
+6642 4213 BoxF
+6658 4195 BoxF
+6674 4173 BoxF
+6690 4147 BoxF
+6706 4118 BoxF
+6722 4085 BoxF
+6738 4048 BoxF
+6754 4008 BoxF
+6770 3965 BoxF
+6786 3918 BoxF
+6802 3868 BoxF
+6818 3816 BoxF
+6834 3760 BoxF
+6851 3702 BoxF
+6867 3641 BoxF
+6883 3578 BoxF
+6899 3512 BoxF
+6915 3445 BoxF
+6931 3375 BoxF
+6947 3304 BoxF
+6579 4766 BoxF
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4626 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData3.txt" using 4:3) Rshow
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+534 4246 Box
+550 4246 Box
+566 4245 Box
+582 4243 Box
+598 4241 Box
+614 4239 Box
+631 4236 Box
+647 4233 Box
+663 4229 Box
+679 4225 Box
+695 4220 Box
+711 4215 Box
+727 4209 Box
+743 4203 Box
+759 4196 Box
+775 4189 Box
+791 4181 Box
+807 4172 Box
+823 4163 Box
+839 4154 Box
+856 4143 Box
+872 4132 Box
+888 4121 Box
+904 4108 Box
+920 4095 Box
+936 4081 Box
+952 4067 Box
+968 4051 Box
+984 4035 Box
+1000 4017 Box
+1016 3999 Box
+1032 3980 Box
+1048 3960 Box
+1064 3939 Box
+1081 3916 Box
+1097 3893 Box
+1113 3869 Box
+1129 3843 Box
+1145 3816 Box
+1161 3788 Box
+1177 3759 Box
+1193 3728 Box
+1209 3696 Box
+1225 3663 Box
+1241 3628 Box
+1257 3592 Box
+1273 3555 Box
+1289 3516 Box
+1306 3476 Box
+1322 3434 Box
+1338 3391 Box
+1354 3347 Box
+1370 3301 Box
+1386 3255 Box
+1402 3207 Box
+1418 3157 Box
+1434 3107 Box
+1450 3056 Box
+1466 3004 Box
+1482 2951 Box
+1498 2898 Box
+1514 2844 Box
+1531 2789 Box
+1547 2734 Box
+1563 2679 Box
+1579 2624 Box
+1595 2570 Box
+1611 2515 Box
+1627 2461 Box
+1643 2407 Box
+1659 2354 Box
+1675 2302 Box
+1691 2251 Box
+1707 2200 Box
+1723 2151 Box
+1740 2102 Box
+1756 2055 Box
+1772 2010 Box
+1788 1965 Box
+1804 1922 Box
+1820 1880 Box
+1836 1839 Box
+1852 1800 Box
+1868 1763 Box
+1884 1726 Box
+1900 1691 Box
+1916 1658 Box
+1932 1626 Box
+1948 1595 Box
+1965 1565 Box
+1981 1537 Box
+1997 1510 Box
+2013 1484 Box
+2029 1459 Box
+2045 1435 Box
+2061 1413 Box
+2077 1392 Box
+2093 1371 Box
+2109 1352 Box
+2125 1333 Box
+2141 1316 Box
+2157 1299 Box
+2173 1284 Box
+2190 1269 Box
+2206 1255 Box
+2222 1241 Box
+2238 1229 Box
+2254 1217 Box
+2270 1206 Box
+2286 1195 Box
+2302 1186 Box
+2318 1176 Box
+2334 1168 Box
+2350 1160 Box
+2366 1152 Box
+2382 1146 Box
+2398 1139 Box
+2415 1133 Box
+2431 1128 Box
+2447 1123 Box
+2463 1119 Box
+2479 1115 Box
+2495 1112 Box
+2511 1109 Box
+2527 1106 Box
+2543 1104 Box
+2559 1103 Box
+2575 1101 Box
+2591 1101 Box
+2607 1100 Box
+2623 1101 Box
+2640 1101 Box
+2656 1102 Box
+2672 1103 Box
+2688 1105 Box
+2704 1108 Box
+2720 1110 Box
+2736 1114 Box
+2752 1117 Box
+2768 1121 Box
+2784 1126 Box
+2800 1131 Box
+2816 1137 Box
+2832 1143 Box
+2849 1149 Box
+2865 1157 Box
+2881 1164 Box
+2897 1173 Box
+2913 1182 Box
+2929 1191 Box
+2945 1201 Box
+2961 1212 Box
+2977 1224 Box
+2993 1236 Box
+3009 1249 Box
+3025 1263 Box
+3041 1277 Box
+3057 1293 Box
+3074 1309 Box
+3090 1326 Box
+3106 1344 Box
+3122 1363 Box
+3138 1383 Box
+3154 1404 Box
+3170 1426 Box
+3186 1449 Box
+3202 1473 Box
+3218 1499 Box
+3234 1525 Box
+3250 1553 Box
+3266 1582 Box
+3282 1612 Box
+3299 1644 Box
+3315 1677 Box
+3331 1711 Box
+3347 1747 Box
+3363 1784 Box
+3379 1823 Box
+3395 1863 Box
+3411 1904 Box
+3427 1947 Box
+3443 1990 Box
+3459 2036 Box
+3475 2082 Box
+3491 2130 Box
+3507 2179 Box
+3524 2229 Box
+3540 2280 Box
+3556 2332 Box
+3572 2385 Box
+3588 2438 Box
+3604 2492 Box
+3620 2546 Box
+3636 2601 Box
+3652 2656 Box
+3668 2711 Box
+3684 2766 Box
+3700 2820 Box
+3716 2875 Box
+3733 2928 Box
+3749 2982 Box
+3765 3034 Box
+3781 3086 Box
+3797 3136 Box
+3813 3186 Box
+3829 3234 Box
+3845 3282 Box
+3861 3328 Box
+3877 3373 Box
+3893 3416 Box
+3909 3458 Box
+3925 3499 Box
+3941 3538 Box
+3958 3576 Box
+3974 3613 Box
+3990 3648 Box
+4006 3682 Box
+4022 3715 Box
+4038 3746 Box
+4054 3776 Box
+4070 3804 Box
+4086 3832 Box
+4102 3858 Box
+4118 3883 Box
+4134 3907 Box
+4150 3929 Box
+4166 3951 Box
+4183 3972 Box
+4199 3991 Box
+4215 4010 Box
+4231 4027 Box
+4247 4044 Box
+4263 4060 Box
+4279 4075 Box
+4295 4089 Box
+4311 4103 Box
+4327 4116 Box
+4343 4128 Box
+4359 4139 Box
+4375 4149 Box
+4391 4159 Box
+4408 4169 Box
+4424 4177 Box
+4440 4185 Box
+4456 4193 Box
+4472 4200 Box
+4488 4206 Box
+4504 4212 Box
+4520 4218 Box
+4536 4223 Box
+4552 4227 Box
+4568 4231 Box
+4584 4235 Box
+4600 4238 Box
+4616 4240 Box
+4633 4242 Box
+4649 4244 Box
+4665 4245 Box
+4681 4246 Box
+4697 4247 Box
+4713 4247 Box
+4729 4246 Box
+4745 4245 Box
+4761 4244 Box
+4777 4242 Box
+4793 4240 Box
+4809 4237 Box
+4825 4234 Box
+4842 4231 Box
+4858 4227 Box
+4874 4222 Box
+4890 4217 Box
+4906 4212 Box
+4922 4206 Box
+4938 4199 Box
+4954 4192 Box
+4970 4184 Box
+4986 4176 Box
+5002 4167 Box
+5018 4158 Box
+5034 4148 Box
+5050 4137 Box
+5067 4126 Box
+5083 4114 Box
+5099 4101 Box
+5115 4087 Box
+5131 4073 Box
+5147 4058 Box
+5163 4042 Box
+5179 4025 Box
+5195 4007 Box
+5211 3988 Box
+5227 3968 Box
+5243 3948 Box
+5259 3926 Box
+5275 3903 Box
+5292 3879 Box
+5308 3854 Box
+5324 3828 Box
+5340 3800 Box
+5356 3771 Box
+5372 3741 Box
+5388 3710 Box
+5404 3677 Box
+5420 3643 Box
+5436 3608 Box
+5452 3571 Box
+5468 3533 Box
+5484 3493 Box
+5500 3452 Box
+5517 3410 Box
+5533 3366 Box
+5549 3321 Box
+5565 3275 Box
+5581 3227 Box
+5597 3178 Box
+5613 3129 Box
+5629 3078 Box
+5645 3026 Box
+5661 2974 Box
+5677 2920 Box
+5693 2866 Box
+5709 2812 Box
+5725 2758 Box
+5742 2703 Box
+5758 2648 Box
+5774 2593 Box
+5790 2538 Box
+5806 2484 Box
+5822 2430 Box
+5838 2377 Box
+5854 2324 Box
+5870 2272 Box
+5886 2221 Box
+5902 2172 Box
+5918 2123 Box
+5934 2075 Box
+5951 2029 Box
+5967 1984 Box
+5983 1940 Box
+5999 1898 Box
+6015 1856 Box
+6031 1817 Box
+6047 1779 Box
+6063 1742 Box
+6079 1706 Box
+6095 1672 Box
+6111 1639 Box
+6127 1608 Box
+6143 1578 Box
+6159 1549 Box
+6176 1521 Box
+6192 1495 Box
+6208 1469 Box
+6224 1445 Box
+6240 1422 Box
+6256 1401 Box
+6272 1380 Box
+6288 1360 Box
+6304 1341 Box
+6320 1323 Box
+6336 1306 Box
+6352 1290 Box
+6368 1275 Box
+6384 1261 Box
+6401 1247 Box
+6417 1234 Box
+6433 1222 Box
+6449 1211 Box
+6465 1200 Box
+6481 1190 Box
+6497 1180 Box
+6513 1171 Box
+6529 1163 Box
+6545 1156 Box
+6561 1148 Box
+6577 1142 Box
+6593 1136 Box
+6609 1130 Box
+6626 1125 Box
+6642 1121 Box
+6658 1117 Box
+6674 1113 Box
+6690 1110 Box
+6706 1107 Box
+6722 1105 Box
+6738 1103 Box
+6754 1102 Box
+6770 1101 Box
+6786 1100 Box
+6802 1100 Box
+6818 1101 Box
+6834 1102 Box
+6851 1103 Box
+6867 1104 Box
+6883 1107 Box
+6899 1109 Box
+6915 1112 Box
+6931 1116 Box
+6947 1120 Box
+6579 4626 Box
+% End plot #2
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Page: 5 5
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(color) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 448 M
+[ [(color) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1004 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1004 M
+[ [(color) 140.0 0.0 true true 0 (-3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 1561 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 1561 M
+[ [(color) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2117 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2117 M
+[ [(color) 140.0 0.0 true true 0 (-1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 2674 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 2674 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3230 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3230 M
+[ [(color) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 3786 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 3786 M
+[ [(color) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4343 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4343 M
+[ [(color) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 4899 M
+63 0 V
+6366 0 R
+-63 0 V
+stroke
+434 4899 M
+[ [(color) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+518 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+518 308 M
+[ [(color) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2125 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2125 308 M
+[ [(color) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3733 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3733 308 M
+[ [(color) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5340 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5340 308 M
+[ [(color) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6947 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6947 308 M
+[ [(color) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(color) 140.0 0.0 true true 0 (Theta)]
+] -46.7 MCshow
+grestore
+/color findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3732 98 M
+[ [(color) 140.0 0.0 true true 0 (t)]
+] -46.7 MCshow
+/color findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4766 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData4.txt" using 2:1) Rshow
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+534 4402 BoxF
+550 4395 BoxF
+566 4384 BoxF
+582 4369 BoxF
+598 4350 BoxF
+614 4327 BoxF
+631 4299 BoxF
+647 4267 BoxF
+663 4232 BoxF
+679 4192 BoxF
+695 4149 BoxF
+711 4101 BoxF
+727 4051 BoxF
+743 3997 BoxF
+759 3939 BoxF
+775 3879 BoxF
+791 3815 BoxF
+807 3749 BoxF
+823 3680 BoxF
+839 3608 BoxF
+856 3534 BoxF
+872 3458 BoxF
+888 3380 BoxF
+904 3300 BoxF
+920 3218 BoxF
+936 3135 BoxF
+952 3052 BoxF
+968 2967 BoxF
+984 2881 BoxF
+1000 2795 BoxF
+1016 2708 BoxF
+1032 2622 BoxF
+1048 2535 BoxF
+1064 2449 BoxF
+1081 2364 BoxF
+1097 2279 BoxF
+1113 2195 BoxF
+1129 2113 BoxF
+1145 2032 BoxF
+1161 1952 BoxF
+1177 1874 BoxF
+1193 1799 BoxF
+1209 1725 BoxF
+1225 1654 BoxF
+1241 1585 BoxF
+1257 1519 BoxF
+1273 1456 BoxF
+1289 1396 BoxF
+1306 1339 BoxF
+1322 1286 BoxF
+1338 1236 BoxF
+1354 1190 BoxF
+1370 1147 BoxF
+1386 1108 BoxF
+1402 1073 BoxF
+1418 1042 BoxF
+1434 1015 BoxF
+1450 993 BoxF
+1466 974 BoxF
+1482 960 BoxF
+1498 950 BoxF
+1514 944 BoxF
+1531 943 BoxF
+1547 946 BoxF
+1563 953 BoxF
+1579 965 BoxF
+1595 981 BoxF
+1611 1001 BoxF
+1627 1025 BoxF
+1643 1054 BoxF
+1659 1086 BoxF
+1675 1123 BoxF
+1691 1163 BoxF
+1707 1207 BoxF
+1723 1255 BoxF
+1740 1306 BoxF
+1756 1361 BoxF
+1772 1419 BoxF
+1788 1480 BoxF
+1804 1545 BoxF
+1820 1612 BoxF
+1836 1681 BoxF
+1852 1753 BoxF
+1868 1828 BoxF
+1884 1904 BoxF
+1900 1983 BoxF
+1916 2063 BoxF
+1932 2145 BoxF
+1948 2228 BoxF
+1965 2312 BoxF
+1981 2397 BoxF
+1997 2483 BoxF
+2013 2569 BoxF
+2029 2655 BoxF
+2045 2742 BoxF
+2061 2828 BoxF
+2077 2914 BoxF
+2093 3000 BoxF
+2109 3084 BoxF
+2125 3168 BoxF
+2141 3250 BoxF
+2157 3331 BoxF
+2173 3410 BoxF
+2190 3488 BoxF
+2206 3563 BoxF
+2222 3636 BoxF
+2238 3707 BoxF
+2254 3775 BoxF
+2270 3840 BoxF
+2286 3903 BoxF
+2302 3962 BoxF
+2318 4018 BoxF
+2334 4071 BoxF
+2350 4120 BoxF
+2366 4166 BoxF
+2382 4208 BoxF
+2398 4246 BoxF
+2415 4280 BoxF
+2431 4310 BoxF
+2447 4336 BoxF
+2463 4358 BoxF
+2479 4376 BoxF
+2495 4389 BoxF
+2511 4398 BoxF
+2527 4403 BoxF
+2543 4404 BoxF
+2559 4400 BoxF
+2575 4392 BoxF
+2591 4379 BoxF
+2607 4363 BoxF
+2623 4342 BoxF
+2640 4316 BoxF
+2656 4287 BoxF
+2672 4254 BoxF
+2688 4217 BoxF
+2704 4176 BoxF
+2720 4131 BoxF
+2736 4082 BoxF
+2752 4030 BoxF
+2768 3975 BoxF
+2784 3916 BoxF
+2800 3854 BoxF
+2816 3790 BoxF
+2832 3722 BoxF
+2849 3652 BoxF
+2865 3579 BoxF
+2881 3505 BoxF
+2897 3428 BoxF
+2913 3349 BoxF
+2929 3268 BoxF
+2945 3186 BoxF
+2961 3103 BoxF
+2977 3019 BoxF
+2993 2933 BoxF
+3009 2848 BoxF
+3025 2761 BoxF
+3041 2675 BoxF
+3057 2588 BoxF
+3074 2502 BoxF
+3090 2416 BoxF
+3106 2331 BoxF
+3122 2246 BoxF
+3138 2163 BoxF
+3154 2081 BoxF
+3170 2000 BoxF
+3186 1922 BoxF
+3202 1845 BoxF
+3218 1770 BoxF
+3234 1697 BoxF
+3250 1627 BoxF
+3266 1559 BoxF
+3282 1494 BoxF
+3299 1432 BoxF
+3315 1374 BoxF
+3331 1318 BoxF
+3347 1266 BoxF
+3363 1217 BoxF
+3379 1173 BoxF
+3395 1131 BoxF
+3411 1094 BoxF
+3427 1061 BoxF
+3443 1031 BoxF
+3459 1006 BoxF
+3475 985 BoxF
+3491 968 BoxF
+3507 955 BoxF
+3524 947 BoxF
+3540 943 BoxF
+3556 944 BoxF
+3572 948 BoxF
+3588 957 BoxF
+3604 971 BoxF
+3620 988 BoxF
+3636 1010 BoxF
+3652 1036 BoxF
+3668 1066 BoxF
+3684 1100 BoxF
+3700 1138 BoxF
+3716 1180 BoxF
+3733 1225 BoxF
+3749 1274 BoxF
+3765 1327 BoxF
+3781 1383 BoxF
+3797 1442 BoxF
+3813 1505 BoxF
+3829 1570 BoxF
+3845 1638 BoxF
+3861 1709 BoxF
+3877 1782 BoxF
+3893 1857 BoxF
+3909 1934 BoxF
+3925 2014 BoxF
+3941 2094 BoxF
+3958 2177 BoxF
+3974 2260 BoxF
+3990 2345 BoxF
+4006 2430 BoxF
+4022 2516 BoxF
+4038 2603 BoxF
+4054 2689 BoxF
+4070 2776 BoxF
+4086 2862 BoxF
+4102 2948 BoxF
+4118 3033 BoxF
+4134 3117 BoxF
+4150 3200 BoxF
+4166 3282 BoxF
+4183 3362 BoxF
+4199 3441 BoxF
+4215 3517 BoxF
+4231 3592 BoxF
+4247 3664 BoxF
+4263 3734 BoxF
+4279 3801 BoxF
+4295 3865 BoxF
+4311 3926 BoxF
+4327 3984 BoxF
+4343 4039 BoxF
+4359 4091 BoxF
+4375 4139 BoxF
+4391 4183 BoxF
+4408 4223 BoxF
+4424 4260 BoxF
+4440 4293 BoxF
+4456 4321 BoxF
+4472 4346 BoxF
+4488 4366 BoxF
+4504 4382 BoxF
+4520 4394 BoxF
+4536 4401 BoxF
+4552 4404 BoxF
+4568 4403 BoxF
+4584 4397 BoxF
+4600 4388 BoxF
+4616 4373 BoxF
+4633 4355 BoxF
+4649 4333 BoxF
+4665 4306 BoxF
+4681 4275 BoxF
+4697 4240 BoxF
+4713 4201 BoxF
+4729 4159 BoxF
+4745 4113 BoxF
+4761 4063 BoxF
+4777 4009 BoxF
+4793 3953 BoxF
+4809 3893 BoxF
+4825 3830 BoxF
+4842 3764 BoxF
+4858 3695 BoxF
+4874 3624 BoxF
+4890 3551 BoxF
+4906 3475 BoxF
+4922 3397 BoxF
+4938 3318 BoxF
+4954 3237 BoxF
+4970 3154 BoxF
+4986 3070 BoxF
+5002 2986 BoxF
+5018 2900 BoxF
+5034 2814 BoxF
+5050 2728 BoxF
+5067 2641 BoxF
+5083 2555 BoxF
+5099 2468 BoxF
+5115 2383 BoxF
+5131 2298 BoxF
+5147 2214 BoxF
+5163 2131 BoxF
+5179 2049 BoxF
+5195 1969 BoxF
+5211 1891 BoxF
+5227 1815 BoxF
+5243 1741 BoxF
+5259 1669 BoxF
+5275 1600 BoxF
+5292 1533 BoxF
+5308 1470 BoxF
+5324 1409 BoxF
+5340 1352 BoxF
+5356 1297 BoxF
+5372 1247 BoxF
+5388 1199 BoxF
+5404 1156 BoxF
+5420 1116 BoxF
+5436 1080 BoxF
+5452 1049 BoxF
+5468 1021 BoxF
+5484 997 BoxF
+5500 978 BoxF
+5517 962 BoxF
+5533 952 BoxF
+5549 945 BoxF
+5565 943 BoxF
+5581 945 BoxF
+5597 951 BoxF
+5613 962 BoxF
+5629 977 BoxF
+5645 996 BoxF
+5661 1019 BoxF
+5677 1047 BoxF
+5693 1078 BoxF
+5709 1114 BoxF
+5725 1154 BoxF
+5742 1197 BoxF
+5758 1244 BoxF
+5774 1294 BoxF
+5790 1348 BoxF
+5806 1406 BoxF
+5822 1466 BoxF
+5838 1530 BoxF
+5854 1596 BoxF
+5870 1665 BoxF
+5886 1737 BoxF
+5902 1811 BoxF
+5918 1887 BoxF
+5934 1965 BoxF
+5951 2045 BoxF
+5967 2126 BoxF
+5983 2209 BoxF
+5999 2293 BoxF
+6015 2378 BoxF
+6031 2464 BoxF
+6047 2550 BoxF
+6063 2636 BoxF
+6079 2723 BoxF
+6095 2809 BoxF
+6111 2895 BoxF
+6127 2981 BoxF
+6143 3066 BoxF
+6159 3149 BoxF
+6176 3232 BoxF
+6192 3313 BoxF
+6208 3393 BoxF
+6224 3471 BoxF
+6240 3547 BoxF
+6256 3620 BoxF
+6272 3691 BoxF
+6288 3760 BoxF
+6304 3826 BoxF
+6320 3889 BoxF
+6336 3949 BoxF
+6352 4006 BoxF
+6368 4060 BoxF
+6384 4110 BoxF
+6401 4156 BoxF
+6417 4199 BoxF
+6433 4238 BoxF
+6449 4273 BoxF
+6465 4304 BoxF
+6481 4331 BoxF
+6497 4354 BoxF
+6513 4373 BoxF
+6529 4387 BoxF
+6545 4397 BoxF
+6561 4403 BoxF
+6577 4404 BoxF
+6593 4401 BoxF
+6609 4394 BoxF
+6626 4383 BoxF
+6642 4367 BoxF
+6658 4347 BoxF
+6674 4323 BoxF
+6690 4294 BoxF
+6706 4262 BoxF
+6722 4226 BoxF
+6738 4185 BoxF
+6754 4141 BoxF
+6770 4094 BoxF
+6786 4042 BoxF
+6802 3988 BoxF
+6818 3930 BoxF
+6834 3869 BoxF
+6851 3805 BoxF
+6867 3738 BoxF
+6883 3668 BoxF
+6899 3596 BoxF
+6915 3522 BoxF
+6931 3445 BoxF
+6947 3367 BoxF
+6579 4766 BoxF
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+LCb setrgbcolor
+6296 4626 M
+("/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData4.txt" using 4:3) Rshow
+1.000 UP
+1.000 UL
+LTb
+LT1
+LCb setrgbcolor
+534 4404 Box
+550 4404 Box
+566 4404 Box
+582 4404 Box
+598 4403 Box
+614 4403 Box
+631 4403 Box
+647 4403 Box
+663 4402 Box
+679 4402 Box
+695 4401 Box
+711 4401 Box
+727 4400 Box
+743 4399 Box
+759 4399 Box
+775 4398 Box
+791 4397 Box
+807 4396 Box
+823 4395 Box
+839 4394 Box
+856 4393 Box
+872 4392 Box
+888 4391 Box
+904 4390 Box
+920 4388 Box
+936 4387 Box
+952 4385 Box
+968 4384 Box
+984 4382 Box
+1000 4380 Box
+1016 4378 Box
+1032 4376 Box
+1048 4374 Box
+1064 4372 Box
+1081 4370 Box
+1097 4367 Box
+1113 4364 Box
+1129 4362 Box
+1145 4359 Box
+1161 4356 Box
+1177 4352 Box
+1193 4349 Box
+1209 4345 Box
+1225 4342 Box
+1241 4338 Box
+1257 4333 Box
+1273 4329 Box
+1289 4324 Box
+1306 4319 Box
+1322 4314 Box
+1338 4309 Box
+1354 4303 Box
+1370 4297 Box
+1386 4291 Box
+1402 4284 Box
+1418 4277 Box
+1434 4270 Box
+1450 4262 Box
+1466 4254 Box
+1482 4246 Box
+1498 4237 Box
+1514 4228 Box
+1531 4218 Box
+1547 4207 Box
+1563 4196 Box
+1579 4185 Box
+1595 4173 Box
+1611 4160 Box
+1627 4147 Box
+1643 4133 Box
+1659 4119 Box
+1675 4104 Box
+1691 4088 Box
+1707 4071 Box
+1723 4053 Box
+1740 4035 Box
+1756 4015 Box
+1772 3995 Box
+1788 3974 Box
+1804 3951 Box
+1820 3928 Box
+1836 3904 Box
+1852 3878 Box
+1868 3851 Box
+1884 3824 Box
+1900 3794 Box
+1916 3764 Box
+1932 3733 Box
+1948 3700 Box
+1965 3665 Box
+1981 3630 Box
+1997 3593 Box
+2013 3554 Box
+2029 3514 Box
+2045 3473 Box
+2061 3431 Box
+2077 3387 Box
+2093 3342 Box
+2109 3295 Box
+2125 3247 Box
+2141 3198 Box
+2157 3148 Box
+2173 3097 Box
+2190 3045 Box
+2206 2992 Box
+2222 2938 Box
+2238 2884 Box
+2254 2829 Box
+2270 2774 Box
+2286 2718 Box
+2302 2663 Box
+2318 2607 Box
+2334 2552 Box
+2350 2496 Box
+2366 2442 Box
+2382 2388 Box
+2398 2334 Box
+2415 2282 Box
+2431 2230 Box
+2447 2179 Box
+2463 2129 Box
+2479 2081 Box
+2495 2034 Box
+2511 1988 Box
+2527 1943 Box
+2543 1899 Box
+2559 1857 Box
+2575 1817 Box
+2591 1778 Box
+2607 1740 Box
+2623 1703 Box
+2640 1668 Box
+2656 1634 Box
+2672 1602 Box
+2688 1571 Box
+2704 1541 Box
+2720 1512 Box
+2736 1485 Box
+2752 1459 Box
+2768 1434 Box
+2784 1410 Box
+2800 1387 Box
+2816 1365 Box
+2832 1344 Box
+2849 1324 Box
+2865 1305 Box
+2881 1287 Box
+2897 1270 Box
+2913 1253 Box
+2929 1237 Box
+2945 1222 Box
+2961 1208 Box
+2977 1194 Box
+2993 1182 Box
+3009 1169 Box
+3025 1157 Box
+3041 1146 Box
+3057 1136 Box
+3074 1125 Box
+3090 1116 Box
+3106 1107 Box
+3122 1098 Box
+3138 1089 Box
+3154 1082 Box
+3170 1074 Box
+3186 1067 Box
+3202 1060 Box
+3218 1054 Box
+3234 1047 Box
+3250 1042 Box
+3266 1036 Box
+3282 1031 Box
+3299 1026 Box
+3315 1021 Box
+3331 1016 Box
+3347 1012 Box
+3363 1008 Box
+3379 1004 Box
+3395 1000 Box
+3411 997 Box
+3427 993 Box
+3443 990 Box
+3459 987 Box
+3475 984 Box
+3491 981 Box
+3507 979 Box
+3524 976 Box
+3540 974 Box
+3556 972 Box
+3572 970 Box
+3588 968 Box
+3604 966 Box
+3620 964 Box
+3636 963 Box
+3652 961 Box
+3668 959 Box
+3684 958 Box
+3700 957 Box
+3716 955 Box
+3733 954 Box
+3749 953 Box
+3765 952 Box
+3781 951 Box
+3797 950 Box
+3813 949 Box
+3829 949 Box
+3845 948 Box
+3861 947 Box
+3877 947 Box
+3893 946 Box
+3909 946 Box
+3925 945 Box
+3941 945 Box
+3958 944 Box
+3974 944 Box
+3990 944 Box
+4006 944 Box
+4022 943 Box
+4038 943 Box
+4054 943 Box
+4070 943 Box
+4086 943 Box
+4102 943 Box
+4118 943 Box
+4134 943 Box
+4150 943 Box
+4166 944 Box
+4183 944 Box
+4199 944 Box
+4215 945 Box
+4231 945 Box
+4247 945 Box
+4263 946 Box
+4279 947 Box
+4295 947 Box
+4311 948 Box
+4327 949 Box
+4343 949 Box
+4359 950 Box
+4375 951 Box
+4391 952 Box
+4408 953 Box
+4424 954 Box
+4440 955 Box
+4456 956 Box
+4472 958 Box
+4488 959 Box
+4504 961 Box
+4520 962 Box
+4536 964 Box
+4552 966 Box
+4568 967 Box
+4584 969 Box
+4600 971 Box
+4616 974 Box
+4633 976 Box
+4649 978 Box
+4665 981 Box
+4681 984 Box
+4697 986 Box
+4713 989 Box
+4729 993 Box
+4745 996 Box
+4761 999 Box
+4777 1003 Box
+4793 1007 Box
+4809 1011 Box
+4825 1015 Box
+4842 1020 Box
+4858 1025 Box
+4874 1030 Box
+4890 1035 Box
+4906 1040 Box
+4922 1046 Box
+4938 1052 Box
+4954 1059 Box
+4970 1065 Box
+4986 1072 Box
+5002 1080 Box
+5018 1088 Box
+5034 1096 Box
+5050 1105 Box
+5067 1114 Box
+5083 1123 Box
+5099 1133 Box
+5115 1144 Box
+5131 1155 Box
+5147 1167 Box
+5163 1179 Box
+5179 1192 Box
+5195 1205 Box
+5211 1219 Box
+5227 1234 Box
+5243 1250 Box
+5259 1266 Box
+5275 1283 Box
+5292 1301 Box
+5308 1320 Box
+5324 1340 Box
+5340 1360 Box
+5356 1382 Box
+5372 1405 Box
+5388 1428 Box
+5404 1453 Box
+5420 1479 Box
+5436 1506 Box
+5452 1535 Box
+5468 1564 Box
+5484 1595 Box
+5500 1627 Box
+5517 1661 Box
+5533 1696 Box
+5549 1732 Box
+5565 1769 Box
+5581 1808 Box
+5597 1849 Box
+5613 1890 Box
+5629 1933 Box
+5645 1978 Box
+5661 2024 Box
+5677 2071 Box
+5693 2119 Box
+5709 2168 Box
+5725 2219 Box
+5742 2270 Box
+5758 2323 Box
+5774 2376 Box
+5790 2430 Box
+5806 2485 Box
+5822 2540 Box
+5838 2595 Box
+5854 2651 Box
+5870 2706 Box
+5886 2762 Box
+5902 2817 Box
+5918 2872 Box
+5934 2927 Box
+5951 2980 Box
+5967 3034 Box
+5983 3086 Box
+5999 3137 Box
+6015 3188 Box
+6031 3237 Box
+6047 3285 Box
+6063 3332 Box
+6079 3377 Box
+6095 3421 Box
+6111 3464 Box
+6127 3506 Box
+6143 3546 Box
+6159 3585 Box
+6176 3622 Box
+6192 3658 Box
+6208 3692 Box
+6224 3726 Box
+6240 3757 Box
+6256 3788 Box
+6272 3817 Box
+6288 3846 Box
+6304 3872 Box
+6320 3898 Box
+6336 3923 Box
+6352 3946 Box
+6368 3969 Box
+6384 3990 Box
+6401 4011 Box
+6417 4030 Box
+6433 4049 Box
+6449 4067 Box
+6465 4084 Box
+6481 4100 Box
+6497 4116 Box
+6513 4130 Box
+6529 4144 Box
+6545 4158 Box
+6561 4170 Box
+6577 4183 Box
+6593 4194 Box
+6609 4205 Box
+6626 4216 Box
+6642 4225 Box
+6658 4235 Box
+6674 4244 Box
+6690 4253 Box
+6706 4261 Box
+6722 4268 Box
+6738 4276 Box
+6754 4283 Box
+6770 4290 Box
+6786 4296 Box
+6802 4302 Box
+6818 4308 Box
+6834 4313 Box
+6851 4318 Box
+6867 4323 Box
+6883 4328 Box
+6899 4332 Box
+6915 4337 Box
+6931 4341 Box
+6947 4345 Box
+6579 4626 Box
+% End plot #2
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+518 4899 N
+518 448 L
+6429 0 V
+0 4451 V
+-6429 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage

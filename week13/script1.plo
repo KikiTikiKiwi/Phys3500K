@@ -1,0 +1,17 @@
+set terminal postscript eps enhanced
+
+set xlabel 't'
+set ylabel 'Theta'
+set xrange [0:20]
+set yrange [-4:4]
+
+set output "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/gnu/figure/figure1.eps"
+
+plot "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData0.txt" using 2:1 w points pt 5, "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData0.txt" using 4:3 w points pt 4
+
+plot "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData1.txt" using 2:1 w points pt 5, "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData1.txt" using 4:3 w points pt 4
+
+plot "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData2.txt" using 2:1 w points pt 5, "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData2.txt" using 4:3 w points pt 4
+
+plot "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData3.txt" using 2:1 w points pt 5, "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData3.txt" using 4:3 w points pt 4
+plot "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData4.txt" using 2:1 w points pt 5, "/Users/kieranmacdonald/Documents/GitHub/Phys3500K/Week13/pendData4.txt" using 4:3 w points pt 4
