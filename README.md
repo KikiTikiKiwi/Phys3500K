@@ -1,5 +1,5 @@
 # Phys3500K
-Computational physics work assignments. You can look at and use as needed for projects but please follow academic honesty polcies and source where you find code.
+Computational physics work assignments. You can look at and use as needed for projects but please follow academic honesty policies
 *IMPORTANT* 
-should not be trusted for correctness
+Should not be trusted for correctness
 
